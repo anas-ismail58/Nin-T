@@ -21,25 +21,79 @@
 /* new */
 
 .theme-entry .input-control textarea {
-    height:100px;
+    height: 100px;
 }
 
-.theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.watermark, .theme-entry .input-control-watermark,
-.theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.readonly, .theme-entry input[type=text].input-control.readonly,
+.theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.watermark,
+.theme-entry .input-control-watermark,
+.theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.readonly,
+.theme-entry input[type=text].input-control.readonly,
 .theme-entry input[type=password].input-control.readonly,
-.theme-entry .input-control.select-box{
-    height:40px;
-    border-radius:5px!important;
-    border-color:#0066CC;
+.theme-entry .input-control.select-box {
+    height: 40px;
+    border-radius: 5px !important;
+    border-color: #0066CC;
 }
 
 .SourceCode-Forms-Controls-Web-Table.Grid-Layout {
-    gap:20px;
+    gap: 20px;
 }
 
 .theme-entry span.SourceCode-Forms-Controls-Web-Label {
-    display:block;
-    margin-bottom:5px;
-    font-size:16px;
-    color:#004C87;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #004C87;
+}
+
+.theme-entry .form {
+    background-color: #F6F6F6;
+    padding: 20px;
+}
+
+.theme-entry .grid table.grid-column-header-table td {
+    min-height: 50px;
+    height: 50px !important;
+    color: #222;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.theme-entry .grid table.grid-content-table>tbody>tr>td,
+.theme-entry .grid table.grid-content-table>tr>td {
+    border: 1px dotted transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-right-color: var(--list-column-header-border-color);
+    border-style: solid;
+}
+
+.theme-entry .grid table.grid-content-table>tbody>tr>td:last-child,
+.theme-entry .grid table.grid-content-table tr td:last-child {
+    border: 0;
+}
+
+.theme-entry .grid .grid-column-headers div,
+.theme-entry .grid .grid-column-headers span {
+    color: #222;
+    opacity: 1;
+}
+
+.theme-entry a.SourceCode-Forms-Controls-Web-Button {
+    background: #0066CC;
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    color: #fff;
+}
+
+.theme-entry .view .grid-header-wrapper {
+    background-color: #fff;
+
+}
+
+.grid-header .grid-header-text {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
 }
