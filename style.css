@@ -15,3 +15,31 @@
     border-color: #004C87 !important;
     height: 50px;
 }
+
+
+
+/* new */
+
+.theme-entry .input-control textarea {
+    height:100px;
+}
+
+.theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.watermark, .theme-entry .input-control-watermark,
+.theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.readonly, .theme-entry input[type=text].input-control.readonly,
+.theme-entry input[type=password].input-control.readonly,
+.theme-entry .input-control.select-box{
+    height:40px;
+    border-radius:5px!important;
+    border-color:#0066CC;
+}
+
+.SourceCode-Forms-Controls-Web-Table.Grid-Layout {
+    gap:20px;
+}
+
+.theme-entry span.SourceCode-Forms-Controls-Web-Label {
+    display:block;
+    margin-bottom:5px;
+    font-size:16px;
+    color:#004C87;
+}
