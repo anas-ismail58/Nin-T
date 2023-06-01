@@ -192,7 +192,7 @@ div {
     padding: 10px;
 }
 
-.theme-entry .root-table.Grid-Layout>.editor-cell.lastrow:last-child {
+.theme-entry [name="POC_Request_Action_Form Area Item"] .root-table.Grid-Layout>.editor-cell.lastrow:last-child {
     background:transparent;
     box-shadow:unset;
 }
