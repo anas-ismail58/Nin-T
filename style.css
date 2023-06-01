@@ -191,3 +191,8 @@ div {
 .theme-entry .panel .panel-body-wrapper {
     padding: 10px;
 }
+
+.theme-entry .root-table.Grid-Layout>.editor-cell.lastrow:last-child {
+    background:transparent;
+    box-shadow:unset;
+}
