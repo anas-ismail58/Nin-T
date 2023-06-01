@@ -275,3 +275,7 @@ div {
 [name="POC_Request_Action_Form Area Item1"] {
     background: rgba(0, 102, 204, 0.2) !important;
 }
+
+.theme-entry .grid table.grid-column-header-table {
+    width: 100%!important;
+}
