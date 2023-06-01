@@ -59,4 +59,4 @@ mainList.appendChild(mainItem3);
 sideMenu.appendChild(mainList);
 
 // Add the side menu container to the page
-// document.body.appendChild(sideMenu);
+document.body.appendChild(sideMenu);
