@@ -188,3 +188,6 @@ div {
 .theme-entry .panel.without-header.without-toolbar>.panel-body, .theme-entry .panel.without-header.with-toolbar>.panel-body, .theme-entry .panel.with-header.without-toolbar>.panel-body {
     padding:5px;
 }
+.theme-entry .panel .panel-body-wrapper {
+    padding: 10px;
+}
