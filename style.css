@@ -17,11 +17,12 @@
 } */
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
 /* new */
 body.theme-entry {
     direction: rtl;
-    font-family: 'cairo'!important;
+    font-family: 'cairo' !important;
 }
 
 .theme-entry .input-control textarea {
@@ -100,4 +101,30 @@ body.theme-entry {
 .grid-header .grid-header-text {
     padding: 20px;
     border-bottom: 1px solid #ddd;
+}
+
+/*  */
+
+.theme-entry {
+    font-family: 'cairo'!important;
+}
+html[dir=ltr] .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c {
+    border-right-width:1px!important;
+    border-radius: 0 5px 5px 0!important;
+    border-left-width:0;
+    
+}
+
+html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
+    border-radius: 5px 0 0 5px!important;
+    border-width: 1px 1px 1px 1px;
+    border-right-width:0
+}
+
+.theme-entry .input-control.watermark a.input-control span {
+    font-size: inherit;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 6px;
 }
