@@ -2,6 +2,9 @@
 const sideMenu = document.createElement('div');
 sideMenu.classList.add('side-menu');
 
+const formWrapper = document.createElement('div');
+formWrapper.classList.add("form-wrapper");
+
 // Create the main category list
 const mainList = document.createElement('ul');
 
@@ -60,3 +63,4 @@ sideMenu.appendChild(mainList);
 
 // Add the side menu container to the page
 document.body.appendChild(sideMenu);
+document.body.appendChild(formWrapper);
