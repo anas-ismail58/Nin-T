@@ -224,7 +224,8 @@ div {
     box-shadow: unset;
 }
 
-.theme-entry [name="POC_Request_Action_Form Area Item8"] .root-table.Grid-Layout>.editor-cell.lastrow {
+.theme-entry [name="POC_Request_Action_Form Area Item8"] .root-table.Grid-Layout>.editor-cell.lastrow,
+.theme-entry [name="POC_Request_Action_Form Area Item3"] .root-table.Grid-Layout>.editor-cell.lastrow{
     background: transparent;
     box-shadow: unset;
     padding: 0;
