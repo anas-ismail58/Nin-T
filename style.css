@@ -105,6 +105,7 @@ body.theme-entry {
     align-items: center;
     justify-content: center;
     width: 100px;
+    font-family: 'cairo' !important;
 }
 
 .theme-entry .view .grid-header-wrapper {
@@ -246,4 +247,31 @@ div {
 
 .theme-entry .form .view .innerpanel>.panel {
     background-color: #f1f1f1;
+}
+
+/* trans */
+
+.theme-entry .view [name="POC_Request_Action_Form Area Item3"] .panel-header {
+    background: rgba(0, 102, 204, 0.15);
+}
+
+
+.theme-entry .form .view .innerpanel [name="POC_Request_Action_Form Area Item3"] .panel,
+.theme-entry .view .panel-header-wrapper,
+.theme-entry .view .panel-header,
+.visible.panel.scroll-contents.with-header.without-toolbar.without-footer,
+.visible.panel.scroll-contents.with-header.without-toolbar.without-footer {
+    background: rgba(0, 102, 204, 0.1);
+}
+
+.theme-entry .grid table.grid-column-header-table td {
+    background: transparent;
+}
+
+.theme-entry .view .grid-header-wrapper {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .1)
+}
+
+[name="POC_Request_Action_Form Area Item1"] {
+    background: rgba(0, 102, 204, 0.2) !important;
 }
