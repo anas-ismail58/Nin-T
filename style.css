@@ -19,6 +19,9 @@
 
 
 /* new */
+body.theme-entry {
+    direction: rtl;
+}
 
 .theme-entry .input-control textarea {
     height: 100px;
