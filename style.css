@@ -106,19 +106,20 @@ body.theme-entry {
 /*  */
 
 .theme-entry {
-    font-family: 'cairo'!important;
+    font-family: 'cairo' !important;
 }
+
 html[dir=ltr] .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c {
-    border-right-width:1px!important;
-    border-radius: 0 5px 5px 0!important;
-    border-left-width:0;
-    
+    border-right-width: 1px !important;
+    border-radius: 0 5px 5px 0 !important;
+    border-left-width: 0;
+
 }
 
 html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
-    border-radius: 5px 0 0 5px!important;
+    border-radius: 5px 0 0 5px !important;
     border-width: 1px 1px 1px 1px;
-    border-right-width:0
+    border-right-width: 0
 }
 
 .theme-entry .input-control.watermark a.input-control span {
@@ -127,4 +128,9 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     display: flex;
     align-items: center;
     padding: 0 6px;
+}
+
+span,
+div {
+    font-family: 'cairo' !important;
 }
