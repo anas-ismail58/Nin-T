@@ -225,8 +225,25 @@ div {
 }
 
 .theme-entry [name="POC_Request_Action_Form Area Item8"] .root-table.Grid-Layout>.editor-cell.lastrow,
-.theme-entry [name="POC_Request_Action_Form Area Item3"] .root-table.Grid-Layout>.editor-cell.lastrow{
+.theme-entry [name="POC_Request_Action_Form Area Item3"] .root-table.Grid-Layout>.editor-cell.lastrow {
     background: transparent;
     box-shadow: unset;
     padding: 0;
+}
+
+.theme-entry .grid .grid-body {
+    padding: 0 10px;
+}
+
+.formcontrol>div {
+    padding: 0 20px;
+}
+
+.form .row>* {
+    margin-top: 0 !important;
+
+}
+
+.theme-entry .form .view .innerpanel>.panel {
+    background-color: #f1f1f1;
 }
