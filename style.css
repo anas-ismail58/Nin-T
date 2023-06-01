@@ -277,5 +277,43 @@ div {
 }
 
 .theme-entry .grid table.grid-column-header-table {
-    width: 100%!important;
+    width: 100% !important;
 }
+
+
+/* side menu design */
+
+
+.form-nintex__wrapper {
+    display: flex;
+}
+
+.form-nintex__wrapper .side-menu {
+    height: 100%;
+    width: 340px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #004C87;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.form-nintex__wrapper .form-wrapper {
+    margin-right: 350px;
+    font-size: 28px;
+    padding: 0px 10px
+}
+
+.form-nintex__wrapper .side-menu ul {
+    list-style: none;
+}
+
+.form-nintex__wrapper .side-menu a {
+    color: #fff;
+    font-size: 17px;
+}
+
+
+/* side menu design */
