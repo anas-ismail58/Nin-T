@@ -1,4 +1,10 @@
+
 // Create the side menu container
+
+const pageWrapper = document.createElement('div');
+pageWrapper.classList.add('form-nintex__wrapper');
+
+
 const sideMenu = document.createElement('div');
 sideMenu.classList.add('side-menu');
 
@@ -8,6 +14,8 @@ formWrapper.classList.add("form-wrapper");
 
 const forms = document.querySelector('.theme-entry .runtime-form');
 formWrapper.appendChild(forms);
+
+
 
 // Create the main category list
 const mainList = document.createElement('ul');
@@ -66,5 +74,9 @@ mainList.appendChild(mainItem3);
 sideMenu.appendChild(mainList);
 
 // Add the side menu container to the page
-document.body.appendChild(sideMenu);
-document.body.appendChild(formWrapper);
+document.body.appendChild(pageWrapper);
+pageWrapper.appendChild(sideMenu)
+pageWrapper.appendChild(formWrapper);
+
+// document.body.appendChild(sideMenu);
+// document.body.appendChild(formWrapper);
