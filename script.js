@@ -2,8 +2,12 @@
 const sideMenu = document.createElement('div');
 sideMenu.classList.add('side-menu');
 
+
 const formWrapper = document.createElement('div');
 formWrapper.classList.add("form-wrapper");
+
+const forms = document.querySelector('.theme-entry .runtime-form');
+formWrapper.appendChild(forms);
 
 // Create the main category list
 const mainList = document.createElement('ul');
