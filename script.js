@@ -8,11 +8,11 @@ Topheader.classList.add('top-header');
 
 Topheader.innerHTML += `<div class="header-top__logo">
 <div class="header-top__logo__img">
-    <img src="" alt="" width="100%">
+    <img src="https://www.swcc.gov.sa/media/images/swcc-logo.png" alt="" width="100%">
 </div>
 <div class="header-top__user">
     <div class="header-top__user__avatar">
-        <img src="" alt="" width="100%">
+        <img src="https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper-thumbnail.png" alt="" width="100%">
     </div>
     <div class="header-top__user__name">
         <span>Salama</span>
