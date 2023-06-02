@@ -124,8 +124,8 @@ const subList2 = document.createElement('ul');
 //     subItem.appendChild(subLink);
 //     subList2.appendChild(subItem);
 // }
-// mainItem2.appendChild(mainLink2);
-// mainItem2.appendChild(subList2);
+mainItem2.appendChild(mainLink2);
+mainItem2.appendChild(subList2);
 
 
 
@@ -145,8 +145,8 @@ const subList3 = document.createElement('ul');
 //     subItem.appendChild(subLink);
 //     subList3.appendChild(subItem);
 // }
-// mainItem3.appendChild(mainLink3);
-// mainItem3.appendChild(subList3);
+mainItem3.appendChild(mainLink3);
+mainItem3.appendChild(subList3);
 
 
 
