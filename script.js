@@ -17,11 +17,19 @@ const forms = document.querySelector('.theme-entry .runtime-form');
 formWrapper.appendChild(forms);
 
 
-forms.style.display = 'none';
+// forms.style.display = 'none';
 
+let noData = document.createElement('div');
+noData.classList.add('no-date-content');
+
+formWrapper.appendChild(noData);
+noData.style.display = "none";
+noData.textContent = 'هذه الخدمه غير متوفره الان';
 
 // Create the main category list
 const mainList = document.createElement('ul');
+
+
 
 
 
@@ -47,6 +55,16 @@ subLink.textContent = `اجراء من المؤسسة`;
 subItem.appendChild(subLink);
 subList1.appendChild(subItem);
 
+
+
+subLink.addEventListener('click', function () {
+    forms.style.display = 'none';
+    subLink.classList.add('active');
+    noData.style.display = 'block';
+});
+
+
+
 subItem = document.createElement('li');
 subLink = document.createElement('a');
 subLink.textContent = 'اجراء ضد المؤسسة';
@@ -54,18 +72,25 @@ subLink.textContent = 'اجراء ضد المؤسسة';
 subItem.appendChild(subLink);
 subList1.appendChild(subItem);
 
+subLink.addEventListener('click', function () {
+    forms.style.display = 'none';
+    subLink.classList.add('active');
+    noData.style.display = 'block';
+});
+
+
 subItem = document.createElement('li');
 let subLink3 = document.createElement('a');
 subLink3.textContent = 'اجراء التحقيق';
 
-subLink3.classList.add('sub-item');
+subLink3.classList.add('sub-item active');
 
 subItem.appendChild(subLink3);
 subList1.appendChild(subItem);
 
 subLink3.addEventListener('click', function () {
     forms.style.display = 'block';
-    subLink3.classList.add('active');
+    // subLink3.classList.add('active');
 });
 
 
@@ -82,7 +107,7 @@ mainItem1.appendChild(subList1);
 // Create the second main category and its subcategories
 const mainItem2 = document.createElement('li');
 const mainLink2 = document.createElement('a');
-mainLink2.textContent = 'Main Category 2';
+mainLink2.textContent = 'الشؤون القانونية';
 
 
 mainLink2.addEventListener('click', function () {
@@ -92,36 +117,36 @@ mainLink2.addEventListener('click', function () {
 
 
 const subList2 = document.createElement('ul');
-for (let i = 1; i <= 3; i++) {
-    const subItem = document.createElement('li');
-    const subLink = document.createElement('a');
-    subLink.textContent = `Subcategory 2.${i}`;
-    subItem.appendChild(subLink);
-    subList2.appendChild(subItem);
-}
-mainItem2.appendChild(mainLink2);
-mainItem2.appendChild(subList2);
+// for (let i = 1; i <= 3; i++) {
+//     const subItem = document.createElement('li');
+//     const subLink = document.createElement('a');
+//     subLink.textContent = `Subcategory 2.${i}`;
+//     subItem.appendChild(subLink);
+//     subList2.appendChild(subItem);
+// }
+// mainItem2.appendChild(mainLink2);
+// mainItem2.appendChild(subList2);
 
 
 
 // Create the third main category and its subcategories
 const mainItem3 = document.createElement('li');
 const mainLink3 = document.createElement('a');
-mainLink3.textContent = 'Main Category 3';
+mainLink3.textContent = ' الحوكمة';
 mainLink3.addEventListener('click', function () {
     const pageWrapper = document.querySelector('.form-nintex__wrapper');
     pageWrapper.classList.toggle('collapsed');
 });
 const subList3 = document.createElement('ul');
-for (let i = 1; i <= 3; i++) {
-    const subItem = document.createElement('li');
-    const subLink = document.createElement('a');
-    subLink.textContent = `Subcategory 3.${i}`;
-    subItem.appendChild(subLink);
-    subList3.appendChild(subItem);
-}
-mainItem3.appendChild(mainLink3);
-mainItem3.appendChild(subList3);
+// for (let i = 1; i <= 3; i++) {
+//     const subItem = document.createElement('li');
+//     const subLink = document.createElement('a');
+//     subLink.textContent = `Subcategory 3.${i}`;
+//     subItem.appendChild(subLink);
+//     subList3.appendChild(subItem);
+// }
+// mainItem3.appendChild(mainLink3);
+// mainItem3.appendChild(subList3);
 
 
 
@@ -152,6 +177,9 @@ style.textContent = `
   }
   .side-menu .collapsed {
     display: none;
+  }
+  .sub-item.active {
+    background: rgba(0, 102, 204, 0.7);
   }
 `;
 document.head.appendChild(style);
