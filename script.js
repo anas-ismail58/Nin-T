@@ -38,8 +38,8 @@ mainLink1.addEventListener('click', function () {
 });
 
 // subcatog one with subitems
-const subItem = document.createElement('li');
-const subLink = document.createElement('a');
+let subItem = document.createElement('li');
+let subLink = document.createElement('a');
 subLink.textContent = `اجراء من المؤسسة`;
 
 subItem.appendChild(subLink);
