@@ -26,7 +26,7 @@ const mainList = document.createElement('ul');
 // Create the first main category and its subcategories
 const mainItem1 = document.createElement('li');
 const mainLink1 = document.createElement('a');
-mainLink1.textContent = 'Main Category 1';
+mainLink1.textContent = 'ادارة القضايا و التحقيقات';
 // Add an event listener to the main category link to toggle the 'collapsed' class on the page wrapper
 
 const subList1 = document.createElement('ul');
@@ -40,7 +40,10 @@ mainLink1.addEventListener('click', function () {
 for (let i = 1; i <= 3; i++) {
     const subItem = document.createElement('li');
     const subLink = document.createElement('a');
-    subLink.textContent = `Subcategory 1.${i}`;
+    subLink[0].textContent = 'اجراء من المؤسسة';
+    subLink[1].textContent = 'اجراء ضد المؤسسة';
+    subLink[3].textContent = 'اجراء التحقيق';
+    
     subItem.appendChild(subLink);
     subList1.appendChild(subItem);
 }
@@ -53,10 +56,14 @@ mainItem1.appendChild(subList1);
 const mainItem2 = document.createElement('li');
 const mainLink2 = document.createElement('a');
 mainLink2.textContent = 'Main Category 2';
+
+
 mainLink2.addEventListener('click', function () {
     const pageWrapper = document.querySelector('.form-nintex__wrapper');
     pageWrapper.classList.toggle('collapsed');
 });
+
+
 const subList2 = document.createElement('ul');
 for (let i = 1; i <= 3; i++) {
     const subItem = document.createElement('li');
