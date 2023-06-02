@@ -58,15 +58,14 @@ subItem = document.createElement('li');
 let subLink3 = document.createElement('a');
 subLink3.textContent = 'اجراء التحقيق';
 
-subLink.classList.add('sub-item');
-var subItmes = document.querySelector('.sub-item');
+subLink3.classList.add('sub-item');
 
 subItem.appendChild(subLink3);
 subList1.appendChild(subItem);
 
-subLink3.addEventListener('click', function (e) {
+subLink3.addEventListener('click', function () {
     forms.style.display = 'block';
-    this.classList.add = 'active';
+    subLink3.classList.add('active');
 });
 
 
