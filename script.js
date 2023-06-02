@@ -114,6 +114,7 @@ subList1.appendChild(subItem);
 
 subLink3.addEventListener('click', function () {
     forms.style.display = 'block';
+    noData.style.display = 'none';
     // subLink3.classList.add('active');
 });
 
