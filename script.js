@@ -158,13 +158,13 @@ mainLink2.addEventListener('click', function () {
 
 
 const subList2 = document.createElement('ul');
-for (let i = 1; i <= 3; i++) {
-    const subItem = document.createElement('li');
-    const subLink = document.createElement('a');
-    subLink.textContent = `الشؤون القانونية.${i}`;
-    subItem.appendChild(subLink);
-    subList2.appendChild(subItem);
-}
+// for (let i = 1; i <= 3; i++) {
+//     const subItem = document.createElement('li');
+//     const subLink = document.createElement('a');
+//     subLink.textContent = `الشؤون القانونية.${i}`;
+//     subItem.appendChild(subLink);
+//     subList2.appendChild(subItem);
+// }
 mainItem2.appendChild(mainLink2);
 mainItem2.appendChild(subList2);
 
@@ -183,13 +183,13 @@ mainLink3.addEventListener('click', function () {
     pageWrapper.classList.toggle('collapsed');
 });
 const subList3 = document.createElement('ul');
-for (let i = 1; i <= 3; i++) {
-    const subItem = document.createElement('li');
-    const subLink = document.createElement('a');
-    subLink.textContent = ` الحوكمة.${i}`;
-    subItem.appendChild(subLink);
-    subList3.appendChild(subItem);
-}
+// for (let i = 1; i <= 3; i++) {
+//     const subItem = document.createElement('li');
+//     const subLink = document.createElement('a');
+//     subLink.textContent = ` الحوكمة.${i}`;
+//     subItem.appendChild(subLink);
+//     subList3.appendChild(subItem);
+// }
 
 
 
