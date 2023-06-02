@@ -66,7 +66,7 @@ subList1.appendChild(subItem);
 
 subLink3.addEventListener('click', function (e) {
     forms.style.display = 'block';
-    subLink3.classList.add = 'active';
+    this.classList.add = 'active';
 });
 
 
