@@ -317,3 +317,44 @@ div {
 
 
 /* side menu design */
+
+
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+#menu-button {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.dropdown-container {
+    margin-bottom: 20px;
+}
+
+.dropdown-button {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.dropdown-items {
+    display: none;
+}
+
+.dropdown-items-active {
+    display: block;
+}
