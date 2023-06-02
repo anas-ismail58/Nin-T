@@ -315,6 +315,14 @@ div {
     font-size: 17px;
 }
 
+.top-header {
+    height: 60px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
 
 /* side menu design */
 
@@ -322,7 +330,7 @@ div {
 
 #sidebar {
     position: fixed;
-    top: 0;
+    top: 60px;
     left: 0;
     bottom: 0;
     width: 200px;
