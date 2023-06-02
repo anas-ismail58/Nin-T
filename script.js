@@ -7,7 +7,7 @@ const Topheader = document.createElement('div');
 Topheader.classList.add('top-header');
 
 const logoWrapper = document.createElement('div');
-logoWrapper.classList.add(logo-wrapper);
+logoWrapper.classList.add('logo-wrapper');
 
 const logoWrapperImg = document.createComment('img');
 logoWrapperImg.setAttribute('src','https://www.swcc.gov.sa/media/images/swcc-logo.png');
@@ -176,7 +176,7 @@ document.body.appendChild(pageWrapper);
 
 pageWrapper.appendChild(Topheader);
 
-pageWrapper.appendChild(sideMenu)
+pageWrapper.appendChild(sideMenu);
 
 pageWrapper.appendChild(formWrapper);
 
