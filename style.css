@@ -392,3 +392,10 @@ div {
     border-radius: 50%;
     overflow: hidden;
 }
+
+.header-top__logo__img {
+    height: 100%;
+}
+.header-top__logo__img img {
+    height: 100%;
+}
