@@ -28,11 +28,15 @@ const mainItem1 = document.createElement('li');
 const mainLink1 = document.createElement('a');
 mainLink1.textContent = 'Main Category 1';
 // Add an event listener to the main category link to toggle the 'collapsed' class on the page wrapper
-mainLink1.addEventListener('click', function () {
-    const pageWrapper = document.querySelector('.form-nintex__wrapper');
-    pageWrapper.classList.toggle('collapsed');
-});
+
 const subList1 = document.createElement('ul');
+subList1.classList.add('sub-list__Catog');
+
+mainLink1.addEventListener('click', function () {
+    const subListCat = document.querySelector('.sub-list__Catog');
+    subListCat.classList.toggle('collapsed');
+});
+
 for (let i = 1; i <= 3; i++) {
     const subItem = document.createElement('li');
     const subLink = document.createElement('a');
@@ -109,10 +113,10 @@ pageWrapper.appendChild(formWrapper);
 // Add some CSS to style the collapsed state of the page wrapper
 const style = document.createElement('style');
 style.textContent = `
-  .form-nintex__wrapper.collapsed {
+  .form-nintex__wrapper .collapsed {
     width: 100%;
   }
-  .side-menu.collapsed {
+  .side-menu .collapsed {
     display: none;
   }
 `;
