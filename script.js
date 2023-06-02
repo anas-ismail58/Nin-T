@@ -17,7 +17,7 @@ const forms = document.querySelector('.theme-entry .runtime-form');
 formWrapper.appendChild(forms);
 
 
-forms.style.display = 'block';
+forms.style.display = 'none';
 
 
 // Create the main category list
