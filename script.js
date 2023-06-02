@@ -78,6 +78,7 @@ mainLink1.addEventListener('click', function () {
 let subItem = document.createElement('li');
 let subLink = document.createElement('a');
 subLink.innerHTML += `<span>اجراء من المؤسسة</span>`;
+subLink.classList.add('sub-item');
 
 subItem.appendChild(subLink);
 subList1.appendChild(subItem);
@@ -95,6 +96,7 @@ subLink.addEventListener('click', function () {
 subItem = document.createElement('li');
 subLink = document.createElement('a');
 subLink.innerHTML += `<span>اجراء ضد المؤسسة</span>`;
+subLink.classList.add('sub-item');
 
 subItem.appendChild(subLink);
 subList1.appendChild(subItem);
@@ -122,6 +124,15 @@ subLink3.addEventListener('click', function () {
 });
 
 
+// var itemActive = document.querySelectorAll('.sub-item');
+
+// for (var i = 0; i < itemActive.length; i++) {
+//     itemActive[i].addEventListener("click", function() {
+//     var current = document.getElementsByClassName("active");
+//     current[0].className = current[0].className.replace(" active", "");
+//     this.className += " active";
+//     });
+//   }
 
 
 // for (let i = 1; i <= 3; i++) {
