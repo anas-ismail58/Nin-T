@@ -6,6 +6,21 @@ pageWrapper.classList.add('form-nintex__wrapper');
 const Topheader = document.createElement('div');
 Topheader.classList.add('top-header');
 
+Topheader.innerHTML += `<div class="header-top__logo">
+<div class="header-top__logo__img">
+    <img src="" alt="" width="100%">
+</div>
+<div class="header-top__user">
+    <div class="header-top__user__avatar">
+        <img src="" alt="" width="100%">
+    </div>
+    <div class="header-top__user__name">
+        <span>Salama</span>
+    </div>
+</div>
+</div>`
+
+
 const logoWrapper = document.createElement('div');
 logoWrapper.classList.add('logo-wrapper');
 
@@ -92,7 +107,7 @@ subItem = document.createElement('li');
 let subLink3 = document.createElement('a');
 subLink3.textContent = 'اجراء التحقيق';
 
-subLink3.classList.add('sub-item','active');
+subLink3.classList.add('sub-item', 'active');
 
 subItem.appendChild(subLink3);
 subList1.appendChild(subItem);
