@@ -11,7 +11,7 @@ logoWrapper.classList.add(logo-wrapper);
 
 const logoWrapperImg = document.createComment('img');
 logoWrapperImg.setAttribute('src','https://www.swcc.gov.sa/media/images/swcc-logo.png');
-
+logoWrapper.appendChild(logoWrapperImg);
 
 const sideMenu = document.createElement('div');
 sideMenu.classList.add('side-menu');
@@ -173,9 +173,11 @@ sideMenu.appendChild(mainList);
 
 // Add the side menu container to the page
 document.body.appendChild(pageWrapper);
+
 pageWrapper.appendChild(Topheader);
 
 pageWrapper.appendChild(sideMenu)
+
 pageWrapper.appendChild(formWrapper);
 
 
