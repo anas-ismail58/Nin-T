@@ -319,10 +319,11 @@ div {
 .top-header {
     height: 60px;
     background: #fff;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     width: 100%;
+    z-index: 9;
 }
 
 /* side menu design */
