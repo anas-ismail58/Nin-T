@@ -63,7 +63,7 @@ mainItem1.classList.add('main-item-one');
 
 const mainLink1 = document.createElement('a');
 mainLink1.classList.add('main-link-one');
-mainLink1.innerHTML += `<span>ادارة القضايا و التحقيقات</span>` ;
+mainLink1.innerHTML += `<span>ادارة القضايا و التحقيقات</span>`;
 // Add an event listener to the main category link to toggle the 'collapsed' class on the page wrapper
 
 const subList1 = document.createElement('ul');
@@ -112,7 +112,7 @@ subItem = document.createElement('li');
 let subLink3 = document.createElement('a');
 subLink3.innerHTML += '<span>اجراء التحقيق</span>';
 
-subLink3.classList.add('sub-item');
+subLink3.classList.add('sub-item','active');
 
 subItem.appendChild(subLink3);
 subList1.appendChild(subItem);
@@ -190,6 +190,22 @@ const subList3 = document.createElement('ul');
 //     subItem.appendChild(subLink);
 //     subList3.appendChild(subItem);
 // }
+
+let navlist = document.querySelectorAll('.sub-item');
+
+for (let i = 0; i < navlist.length; i++) {
+    navlist[i].addEventListener('click', function () {
+        for (let x = 0; x < navlist.length; x++) {
+            if (navlist[x] == this) {
+                navlist[x].classList.add('active');
+            } else {
+                navlist[x].classList.remove('active');
+            }
+        }
+    });
+}
+
+
 mainItem3.appendChild(mainLink3);
 mainItem3.appendChild(subList3);
 

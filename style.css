@@ -447,9 +447,15 @@ ul.sub-list__Catog {
     margin-left: 20px;
 }
 
+.sub-item {
+    transition: all .5s ease-in-out;
+
+}
+
 .sub-item.active {
     background: rgba(0, 102, 204, 0.7);
     border-radius: 5px 0px 0px 5px;
+    transition: all .5s ease-in-out;
 }
 
 
