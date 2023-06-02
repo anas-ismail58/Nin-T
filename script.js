@@ -10,7 +10,7 @@ const logoWrapper = document.createElement('div');
 logoWrapper.classList.add('logo-wrapper');
 
 const logoWrapperImg = document.createComment('img');
-logoWrapperImg.setAttribute('src','https://www.swcc.gov.sa/media/images/swcc-logo.png');
+// logoWrapperImg.setAttribute('src','https://www.swcc.gov.sa/media/images/swcc-logo.png');
 logoWrapper.appendChild(logoWrapperImg);
 
 const sideMenu = document.createElement('div');
