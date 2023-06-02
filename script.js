@@ -83,7 +83,7 @@ subItem = document.createElement('li');
 let subLink3 = document.createElement('a');
 subLink3.textContent = 'اجراء التحقيق';
 
-subLink3.classList.add('sub-item active');
+subLink3.classList.add('sub-item','active');
 
 subItem.appendChild(subLink3);
 subList1.appendChild(subItem);
