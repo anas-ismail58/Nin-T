@@ -37,16 +37,31 @@ mainLink1.addEventListener('click', function () {
     subListCat.classList.toggle('collapsed');
 });
 
-for (let i = 1; i <= 3; i++) {
-    const subItem = document.createElement('li');
-    const subLink = document.createElement('a');
-    subLink[0].textContent = 'اجراء من المؤسسة';
-    subLink[1].textContent = 'اجراء ضد المؤسسة';
-    subLink[3].textContent = 'اجراء التحقيق';
-    
-    subItem.appendChild(subLink);
-    subList1.appendChild(subItem);
-}
+// subcatog one with subitems
+const subItem = document.createElement('li');
+const subLink = document.createElement('a');
+subLink.textContent = `اجراء من المؤسسة`;
+
+subItem.appendChild(subLink);
+subList1.appendChild(subItem);
+
+subItem = document.createElement('li');
+subLink = document.createElement('a');
+subLink.textContent = 'اجراء ضد المؤسسة';
+
+subItem.appendChild(subLink);
+subList1.appendChild(subItem);
+
+subItem = document.createElement('li');
+subLink = document.createElement('a');
+subLink.textContent = 'اجراء التحقيق';
+
+subItem.appendChild(subLink);
+subList1.appendChild(subItem);
+
+// for (let i = 1; i <= 3; i++) {
+
+// }
 mainItem1.appendChild(mainLink1);
 mainItem1.appendChild(subList1);
 
