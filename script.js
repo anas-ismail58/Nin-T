@@ -64,8 +64,9 @@ var subItmes = document.querySelector('.sub-item');
 subItem.appendChild(subLink3);
 subList1.appendChild(subItem);
 
-subLink3.addEventListener('click', function () {
+subLink3.addEventListener('click', function (e) {
     forms.style.display = 'block';
+    e.target.classList.add = 'active';
 });
 
 
