@@ -161,7 +161,9 @@ mainItem2.appendChild(subList2);
 
 // Create the third main category and its subcategories
 const mainItem3 = document.createElement('li');
+mainItem3.classList.add('main-item-one');
 const mainLink3 = document.createElement('a');
+mainLink3.classList.add('main-link-one');
 mainLink3.textContent = ' الحوكمة';
 mainLink3.addEventListener('click', function () {
     const pageWrapper = document.querySelector('.form-nintex__wrapper');
@@ -208,9 +210,6 @@ const style = document.createElement('style');
 style.textContent = `
   .form-nintex__wrapper .collapsed {
     width: 100%;
-  }
-  .side-menu .collapsed {
-    display: none;
   }
   .sub-item.active {
     background: rgba(0, 102, 204, 0.7);
