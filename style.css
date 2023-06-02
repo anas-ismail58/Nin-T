@@ -457,7 +457,6 @@ ul.sub-list__Catog {
 .main-item-one a.main-link-one {
     position: relative;
     padding-right: 35px;
-    border-bottom: 1px solid rgba(217, 217, 217, 0.2);
     display: block;
     padding: 13px;
 }

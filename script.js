@@ -63,7 +63,7 @@ mainItem1.classList.add('main-item-one');
 
 const mainLink1 = document.createElement('a');
 mainLink1.classList.add('main-link-one');
-mainLink1.textContent = 'ادارة القضايا و التحقيقات';
+mainLink1.innerHTML += `<span>ادارة القضايا و التحقيقات</span>` ;
 // Add an event listener to the main category link to toggle the 'collapsed' class on the page wrapper
 
 const subList1 = document.createElement('ul');
@@ -148,7 +148,7 @@ const mainItem2 = document.createElement('li');
 mainItem2.classList.add('main-item-one');
 const mainLink2 = document.createElement('a');
 mainLink2.classList.add('main-link-one');
-mainLink2.textContent = 'الشؤون القانونية';
+mainLink2.innerHTML += `<span>الشؤون القانونية</span>`;
 
 
 mainLink2.addEventListener('click', function () {
@@ -175,7 +175,9 @@ const mainItem3 = document.createElement('li');
 mainItem3.classList.add('main-item-one');
 const mainLink3 = document.createElement('a');
 mainLink3.classList.add('main-link-one');
-mainLink3.textContent = ' الحوكمة';
+mainLink3.innerHTML += `<span>الحوكمة</span>`;
+
+
 mainLink3.addEventListener('click', function () {
     const pageWrapper = document.querySelector('.form-nintex__wrapper');
     pageWrapper.classList.toggle('collapsed');
