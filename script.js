@@ -15,7 +15,7 @@ Topheader.innerHTML += `<div class="header-top__logo">
         <img src="https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper-thumbnail.png" alt="" width="100%">
     </div>
     <div class="header-top__user__name">
-        <span>Salama</span>
+        <span>عبدالرحمن سلامة</span>
     </div>
 </div>
 </div>`
@@ -77,7 +77,7 @@ mainLink1.addEventListener('click', function () {
 // subcatog one with subitems
 let subItem = document.createElement('li');
 let subLink = document.createElement('a');
-subLink.textContent = `اجراء من المؤسسة`;
+subLink.innerHTML += `<span>اجراء من المؤسسة</span>`;
 
 subItem.appendChild(subLink);
 subList1.appendChild(subItem);
@@ -94,7 +94,7 @@ subLink.addEventListener('click', function () {
 
 subItem = document.createElement('li');
 subLink = document.createElement('a');
-subLink.textContent = 'اجراء ضد المؤسسة';
+subLink.innerHTML += `<span>اجراء ضد المؤسسة</span>`;
 
 subItem.appendChild(subLink);
 subList1.appendChild(subItem);
@@ -108,7 +108,7 @@ subLink.addEventListener('click', function () {
 
 subItem = document.createElement('li');
 let subLink3 = document.createElement('a');
-subLink3.textContent = 'اجراء التحقيق';
+subLink3.innerHTML += '<span>اجراء التحقيق</span>';
 
 subLink3.classList.add('sub-item', 'active');
 
@@ -134,7 +134,9 @@ mainItem1.appendChild(subList1);
 
 // Create the second main category and its subcategories
 const mainItem2 = document.createElement('li');
+mainItem2.classList.add('main-item-one');
 const mainLink2 = document.createElement('a');
+mainLink2.classList.add('main-link-one');
 mainLink2.textContent = 'الشؤون القانونية';
 
 
