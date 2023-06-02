@@ -526,3 +526,7 @@ ul.sub-list__Catog {
     height: 100%;
     padding: 10px 8px 8px;
 }
+
+.form-nintex__wrapper .side-menu a.sub-item.active span {
+    border-bottom: 0;
+}
