@@ -53,13 +53,16 @@ noData.textContent = 'هذه الخدمه غير متوفره الان';
 // Create the main category list
 const mainList = document.createElement('ul');
 
-
+mainList.classList.add('main-list-wrapper')
 
 
 
 // Create the first main category and its subcategories
 const mainItem1 = document.createElement('li');
+mainItem1.classList.add('main-item-one');
+
 const mainLink1 = document.createElement('a');
+mainLink1.classList.add('main-link-one');
 mainLink1.textContent = 'ادارة القضايا و التحقيقات';
 // Add an event listener to the main category link to toggle the 'collapsed' class on the page wrapper
 
