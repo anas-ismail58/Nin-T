@@ -8,7 +8,7 @@ Topheader.classList.add('top-header');
 
 Topheader.innerHTML += `<div class="header-top__logo">
 <div class="header-top__logo__img">
-    <img src="https://www.swcc.gov.sa/media/images/swcc-logo.png" alt="" width="100%">
+    <img src="https://energy-utilities.com/1-comp292538.png" alt="" width="100%">
 </div>
 <div class="header-top__user">
     <div class="header-top__user__avatar">
