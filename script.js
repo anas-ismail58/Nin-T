@@ -55,19 +55,21 @@ subItem.appendChild(subLink);
 subList1.appendChild(subItem);
 
 subItem = document.createElement('li');
-subLink = document.createElement('a');
-subLink.textContent = 'اجراء التحقيق';
+let subLink3 = document.createElement('a');
+subLink3.textContent = 'اجراء التحقيق';
 
 subLink.classList.add('sub-item');
-var subItmes = document.querySelector('sub-item');
+var subItmes = document.querySelector('.sub-item');
 
-subItmes.addEventListener('click', function () {
+subItem.appendChild(subLink3);
+subList1.appendChild(subItem);
+
+subLink3.addEventListener('click', function () {
     forms.style.display = 'block';
 });
 
 
-subItem.appendChild(subLink);
-subList1.appendChild(subItem);
+
 
 // for (let i = 1; i <= 3; i++) {
 
