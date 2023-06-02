@@ -17,6 +17,8 @@ const forms = document.querySelector('.theme-entry .runtime-form');
 formWrapper.appendChild(forms);
 
 
+forms.style.display = 'block';
+
 
 // Create the main category list
 const mainList = document.createElement('ul');
@@ -55,6 +57,14 @@ subList1.appendChild(subItem);
 subItem = document.createElement('li');
 subLink = document.createElement('a');
 subLink.textContent = 'اجراء التحقيق';
+
+subLink.classList.add('sub-item');
+var subItmes = document.querySelector('sub-item');
+
+subItmes.addEventListener('click', function () {
+    forms.style.display = 'block';
+});
+
 
 subItem.appendChild(subLink);
 subList1.appendChild(subItem);
