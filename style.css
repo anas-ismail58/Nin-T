@@ -416,9 +416,8 @@ ul.main-list-wrapper {
 
 .sub-list__Catog li a {
     display: block;
-    padding: 10px 20px;
+    padding: 0px 40px;
     font-size: 14px;
-
 }
 
 ul.sub-list__Catog {
@@ -458,14 +457,14 @@ ul.sub-list__Catog {
     position: relative;
     padding-right: 35px;
     display: block;
-    padding: 13px;
+    padding: 13px 10px;
 }
 
 .main-item-one a.main-link-one span {
     border-bottom: 1px solid rgba(217, 217, 217, 0.2);
     display: block;
     margin-right: 25px;
-    padding-bottom: 13px;
+    padding-bottom: 14px;
 }
 
 .main-item-one:first-child a.main-link-one span:before {
@@ -509,4 +508,15 @@ ul.sub-list__Catog {
     align-items: center;
     justify-content: end;
     top: 20px;
+}
+
+.main-item-one:last-child a.main-link-one span {
+    border-bottom: 0;
+}
+
+.form-nintex__wrapper .side-menu a.sub-item span {
+    border-bottom: 1px solid rgba(217, 217, 217, 0.2);
+    display: block;
+    height: 100%;
+    padding: 10px 8px 8px;
 }
