@@ -126,13 +126,13 @@ subLink3.addEventListener('click', function () {
 
 var itemActive = document.querySelectorAll('.sub-item');
 
-for (var i = 0; i < itemActive.length; i++) {
-    itemActive[i].addEventListener("click", function () {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
-    });
-}
+// for (var i = 0; i < itemActive.length; i++) {
+//     itemActive[i].addEventListener("click", function () {
+//         var current = document.getElementsByClassName("active");
+//         current[0].className = current[0].className.replace(" active", "");
+//         this.className += " active";
+//     });
+// }
 
 
 // for (let i = 1; i <= 3; i++) {
