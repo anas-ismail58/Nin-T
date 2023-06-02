@@ -3,6 +3,15 @@ const pageWrapper = document.createElement('div');
 pageWrapper.classList.add('form-nintex__wrapper');
 
 
+const Topheader = document.createElement('div');
+Topheader.classList.add('top-header');
+
+const logoWrapper = document.createElement('div');
+logoWrapper.classList.add(logo-wrapper);
+
+const logoWrapperImg = document.createComment('img');
+logoWrapperImg.setAttribute('src','https://www.swcc.gov.sa/media/images/swcc-logo.png');
+
 
 const sideMenu = document.createElement('div');
 sideMenu.classList.add('side-menu');
@@ -164,6 +173,8 @@ sideMenu.appendChild(mainList);
 
 // Add the side menu container to the page
 document.body.appendChild(pageWrapper);
+pageWrapper.appendChild(Topheader);
+
 pageWrapper.appendChild(sideMenu)
 pageWrapper.appendChild(formWrapper);
 
