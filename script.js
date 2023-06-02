@@ -112,7 +112,7 @@ subItem = document.createElement('li');
 let subLink3 = document.createElement('a');
 subLink3.innerHTML += '<span>اجراء التحقيق</span>';
 
-subLink3.classList.add('sub-item','active');
+subLink3.classList.add('sub-item', 'active');
 
 subItem.appendChild(subLink3);
 subList1.appendChild(subItem);
@@ -191,19 +191,7 @@ const subList3 = document.createElement('ul');
 //     subList3.appendChild(subItem);
 // }
 
-let navlist = document.querySelectorAll('.sub-item');
 
-for (let i = 0; i < navlist.length; i++) {
-    navlist[i].addEventListener('click', function () {
-        for (let x = 0; x < navlist.length; x++) {
-            if (navlist[x] == this) {
-                navlist[x].classList.add('active');
-            } else {
-                navlist[x].classList.remove('active');
-            }
-        }
-    });
-}
 
 
 mainItem3.appendChild(mainLink3);
@@ -245,3 +233,19 @@ style.textContent = `
   }
 `;
 document.head.appendChild(style);
+
+
+
+let navlist = document.querySelectorAll('.sub-item');
+
+for (let i = 0; i < navlist.length; i++) {
+    navlist[i].addEventListener('click', function () {
+        for (let x = 0; x < navlist.length; x++) {
+            if (navlist[x] == this) {
+                navlist[x].classList.add('active');
+            } else {
+                navlist[x].classList.remove('active');
+            }
+        }
+    });
+}
