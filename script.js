@@ -87,7 +87,7 @@ subList1.appendChild(subItem);
 
 subLink.addEventListener('click', function () {
     forms.style.display = 'none';
-    subLink.classList.add('active');
+    // subLink.classList.add('active');
     noData.style.display = 'block';
 });
 
@@ -103,7 +103,7 @@ subList1.appendChild(subItem);
 
 subLink.addEventListener('click', function () {
     forms.style.display = 'none';
-    subLink.classList.add('active');
+    // subLink.classList.add('active');
     noData.style.display = 'block';
 });
 
@@ -112,7 +112,7 @@ subItem = document.createElement('li');
 let subLink3 = document.createElement('a');
 subLink3.innerHTML += '<span>اجراء التحقيق</span>';
 
-subLink3.classList.add('sub-item', 'active');
+subLink3.classList.add('sub-item');
 
 subItem.appendChild(subLink3);
 subList1.appendChild(subItem);
@@ -124,15 +124,15 @@ subLink3.addEventListener('click', function () {
 });
 
 
-// var itemActive = document.querySelectorAll('.sub-item');
+var itemActive = document.querySelectorAll('.sub-item');
 
-// for (var i = 0; i < itemActive.length; i++) {
-//     itemActive[i].addEventListener("click", function() {
-//     var current = document.getElementsByClassName("active");
-//     current[0].className = current[0].className.replace(" active", "");
-//     this.className += " active";
-//     });
-//   }
+for (var i = 0; i < itemActive.length; i++) {
+    itemActive[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+    });
+}
 
 
 // for (let i = 1; i <= 3; i++) {
