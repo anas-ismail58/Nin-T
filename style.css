@@ -642,3 +642,7 @@ ul.sub-list__Catog {
     }
 
 }
+
+.theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox {
+    height: 40px;
+}
