@@ -150,6 +150,8 @@ const mainLink2 = document.createElement('a');
 mainLink2.classList.add('main-link-one');
 mainLink2.innerHTML += `<span>الشؤون القانونية</span>`;
 
+mainLink2.classList.add('sub-list__Catog','collapsed');
+
 
 mainLink2.addEventListener('click', function () {
     const pageWrapper = document.querySelector('.form-nintex__wrapper');
@@ -158,15 +160,22 @@ mainLink2.addEventListener('click', function () {
 
 
 const subList2 = document.createElement('ul');
-// for (let i = 1; i <= 3; i++) {
-//     const subItem = document.createElement('li');
-//     const subLink = document.createElement('a');
-//     subLink.textContent = `الشؤون القانونية.${i}`;
-//     subItem.appendChild(subLink);
-//     subList2.appendChild(subItem);
-// }
+for (let i = 1; i <= 3; i++) {
+    const subItem = document.createElement('li');
+    const subLink = document.createElement('a');
+    subLink.textContent = `الشؤون القانونية.${i}`;
+    subItem.appendChild(subLink);
+    subList2.appendChild(subItem);
+}
 mainItem2.appendChild(mainLink2);
 mainItem2.appendChild(subList2);
+
+
+
+mainLink2.addEventListener('click', function () {
+    const subListCat = document.querySelector('.sub-list__Catog');
+    subListCat.classList.toggle('collapsed');
+});
 
 
 
