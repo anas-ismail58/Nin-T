@@ -165,7 +165,7 @@ for (let i = 1; i <= 3; i++) {
     const subItem = document.createElement('li');
     const subLink = document.createElement('a');
     subLink.classList.add('sub-item');
-    subLink.textContent = `الشؤون القانونية.${i}`;
+    subLink.innerHTML += `<span>الشؤون القانونية.${i}</span>`;
     subItem.appendChild(subLink);
     subList2.appendChild(subItem);
 }
