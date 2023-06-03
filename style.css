@@ -564,3 +564,25 @@ ul.main-list-wrapper {
 .form-nintex__wrapper .side-menu a.sub-item.active span {
     border-bottom: 0;
 }
+
+
+.form .row:last-child .formcontrol .innerpanel {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px !important;
+    background: transparent !important;
+    box-shadow: unset;
+
+}
+
+.theme-entry a.SourceCode-Forms-Controls-Web-Button {
+    margin-top: 25px !important;
+}
+
+.formcontrol>div {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .1);
+    margin-top: 10px !important;
+    border-radius: 5px
+}
