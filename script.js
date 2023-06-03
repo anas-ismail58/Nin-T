@@ -120,24 +120,11 @@ subList1.appendChild(subItem);
 subLink3.addEventListener('click', function () {
     forms.style.display = 'block';
     noData.style.display = 'none';
-    // subLink3.classList.add('active');
 });
 
 
 var itemActive = document.querySelectorAll('.sub-item');
 
-// for (var i = 0; i < itemActive.length; i++) {
-//     itemActive[i].addEventListener("click", function () {
-//         var current = document.getElementsByClassName("active");
-//         current[0].className = current[0].className.replace(" active", "");
-//         this.className += " active";
-//     });
-// }
-
-
-// for (let i = 1; i <= 3; i++) {
-
-// }
 mainItem1.appendChild(mainLink1);
 mainItem1.appendChild(subList1);
 
@@ -151,8 +138,6 @@ mainLink2.classList.add('main-link-one');
 mainLink2.innerHTML += `<span>الشؤون القانونية</span>`;
 
 
-
-
 mainLink2.addEventListener('click', function () {
     const pageWrapper = document.querySelector('.form-nintex__wrapper');
     pageWrapper.classList.toggle('collapsed');
@@ -160,24 +145,16 @@ mainLink2.addEventListener('click', function () {
 
 
 const subList2 = document.createElement('ul');
-subList2.classList.add('sub-list__Catog');
 for (let i = 1; i <= 3; i++) {
     const subItem = document.createElement('li');
     const subLink = document.createElement('a');
-    subLink.classList.add('sub-item');
-    subLink.innerHTML += `<span>الشؤون القانونية.${i}</span>`;
+    subLink.innerHTML += ` <span> الشؤون القانونية.${i} </span>`;
     subItem.appendChild(subLink);
     subList2.appendChild(subItem);
+    subLink.classList.add('sub-item');
 }
 mainItem2.appendChild(mainLink2);
 mainItem2.appendChild(subList2);
-
-
-
-// mainLink2.addEventListener('click', function () {
-//     const subListCat12 = document.querySelector('.sub-list__Catog1');
-//     subListCat12.classList.toggle('collapsed');
-// });
 
 
 
@@ -256,21 +233,6 @@ for (let i = 0; i < navlist.length; i++) {
                 navlist[x].classList.add('active');
             } else {
                 navlist[x].classList.remove('active');
-            }
-        }
-    });
-}
-
-let mainLinkCatogry = document.querySelectorAll('.main-item-one');
-
-
-for (let i = 0; i < mainLinkCatogry.length; i++) {
-    mainLinkCatogry[i].addEventListener('click', function () {
-        for (let x = 0; x < mainLinkCatogry.length; x++) {
-            if (mainLinkCatogry[x] == this) {
-                mainLinkCatogry[x].classList.add('collapsed');
-            } else {
-                mainLinkCatogry[x].classList.remove('collapsed');
             }
         }
     });
