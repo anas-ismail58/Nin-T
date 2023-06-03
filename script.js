@@ -164,6 +164,7 @@ subList2.classList.add('sub-list__Catog');
 for (let i = 1; i <= 3; i++) {
     const subItem = document.createElement('li');
     const subLink = document.createElement('a');
+    subLink.classList.add('sub-item');
     subLink.textContent = `الشؤون القانونية.${i}`;
     subItem.appendChild(subLink);
     subList2.appendChild(subItem);
@@ -173,10 +174,10 @@ mainItem2.appendChild(subList2);
 
 
 
-mainLink2.addEventListener('click', function () {
-    const subListCat1 = document.querySelector('.sub-list__Catog');
-    subListCat1.classList.toggle('collapsed');
-});
+// mainLink2.addEventListener('click', function () {
+//     const subListCat12 = document.querySelector('.sub-list__Catog1');
+//     subListCat12.classList.toggle('collapsed');
+// });
 
 
 
