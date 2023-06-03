@@ -220,7 +220,12 @@ div {
     padding: 10px;
 }
 
-.theme-entry [name="POC_Request_Action_Form Area Item"] .root-table.Grid-Layout>.editor-cell.lastrow:last-child {
+/* .theme-entry [name="POC_Request_Action_Form Area Item"] .root-table.Grid-Layout>.editor-cell.lastrow:last-child {
+    background: transparent;
+    box-shadow: unset;
+} */
+
+.SFC.SourceCode-Forms-Controls-Web-Table.Grid-Layout.root-table span[name="Cell Cell13"]:last-child {
     background: transparent;
     box-shadow: unset;
 }
@@ -486,17 +491,18 @@ ul.sub-list__Catog {
     justify-content: end;
     top: 16px;
 }
+
 .main-item-one a.main-link-one span:after {
-    position:absolute;
-    content:"";
-    width:20px;
+    position: absolute;
+    content: "";
+    width: 20px;
     height: 20px;
     background-image: url('data:image/svg+xml,<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.97193 10.3285C6.85692 10.3289 6.74297 10.3065 6.63664 10.2627C6.53032 10.2188 6.43372 10.1544 6.35243 10.073L1.10243 4.823C0.938129 4.6587 0.845825 4.43586 0.845825 4.2035C0.845825 3.97114 0.938129 3.7483 1.10243 3.584C1.26673 3.4197 1.48957 3.32739 1.72193 3.32739C1.95429 3.32739 2.17713 3.4197 2.34143 3.584L6.97193 8.218L11.6024 3.584C11.7667 3.4197 11.9896 3.32739 12.2219 3.32739C12.4543 3.32739 12.6771 3.4197 12.8414 3.584C13.0057 3.7483 13.098 3.97114 13.098 4.2035C13.098 4.43586 13.0057 4.6587 12.8414 4.823L7.59143 10.073C7.51014 10.1544 7.41354 10.2188 7.30722 10.2627C7.20089 10.3065 7.08694 10.3289 6.97193 10.3285Z" fill="white"/></svg>');
     background-repeat: no-repeat;
     top: 22px;
-    display:flex;
-    align-items:center;
-    justify-content:flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     left: 14px;
 }
 
