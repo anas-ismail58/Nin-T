@@ -150,7 +150,7 @@ const mainLink2 = document.createElement('a');
 mainLink2.classList.add('main-link-one');
 mainLink2.innerHTML += `<span>الشؤون القانونية</span>`;
 
-mainLink2.classList.add('sub-list__Catog','collapsed');
+
 
 
 mainLink2.addEventListener('click', function () {
@@ -160,6 +160,7 @@ mainLink2.addEventListener('click', function () {
 
 
 const subList2 = document.createElement('ul');
+subList2.classList.add('sub-list__Catog');
 for (let i = 1; i <= 3; i++) {
     const subItem = document.createElement('li');
     const subLink = document.createElement('a');
