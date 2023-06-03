@@ -260,3 +260,18 @@ for (let i = 0; i < navlist.length; i++) {
         }
     });
 }
+
+let mainLinkCatogry = document.querySelectorAll('.main-link-one');
+
+
+for (let i = 0; i < mainLinkCatogry.length; i++) {
+    mainLinkCatogry[i].addEventListener('click', function () {
+        for (let x = 0; x < mainLinkCatogry.length; x++) {
+            if (mainLinkCatogry[x] == this) {
+                mainLinkCatogry[x].classList.add('collapsed');
+            } else {
+                mainLinkCatogry[x].classList.remove('collapsed');
+            }
+        }
+    });
+}
