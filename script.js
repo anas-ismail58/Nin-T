@@ -72,7 +72,7 @@ subList1.classList.add('sub-list__Catog');
 mainLink1.addEventListener('click', function () {
     const subListCat = document.querySelector('.sub-list__Catog');
     subListCat.classList.toggle('collapsed');
-    mainLink1.classList.toggle('show');
+    mainLink1.classList.toggle('hide');
 });
 
 // subcatog one with subitems
