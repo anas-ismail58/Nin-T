@@ -586,3 +586,59 @@ ul.sub-list__Catog {
     margin-top: 10px !important;
     border-radius: 5px
 }
+
+
+/* confirm popup */
+
+.theme-entry .dialog {
+    width: 400px !important;
+    padding: 20px;
+    height: 200px !important;
+}
+
+.theme-entry .dialog .popup-footer {
+    height: auto !important;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+}
+
+.theme-entry .dialog .popup-footer>.popup-footer-c {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.theme-entry .dialog .popup-footer>.popup-footer-c a.SourceCode-Forms-Controls-Web-Button {
+    margin-top: 0 !important;
+    margin-left: 0;
+}
+
+.theme-entry .dialog .popup-footer>.popup-footer-c a.SourceCode-Forms-Controls-Web-Button {
+    font-size: 14px;
+    content: 'text';
+
+}
+
+.theme-entry .dialog .popup-footer>.popup-footer-c a.SourceCode-Forms-Controls-Web-Button:last-child {
+    background: transparent;
+    border: 1px solid #0066CC;
+    color: #0066CC;
+
+}
+
+@media only screen and (max-resolution: 1.5dppx),
+(max-resolution: 144dpi),
+(-webkit-max-device-pixel-ratio: 1.5),
+(-o-max-device-pixel-ratio:3/2) {
+    .theme-entry .message-box-content.confirmation:before {
+        background-image: unset !important;
+    }
+
+}
