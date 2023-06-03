@@ -174,8 +174,8 @@ mainItem2.appendChild(subList2);
 
 
 mainLink2.addEventListener('click', function () {
-    const subListCat = document.querySelector('.sub-list__Catog');
-    subListCat.classList.toggle('collapsed');
+    const subListCat1 = document.querySelector('.sub-list__Catog');
+    subListCat1.classList.toggle('collapsed');
 });
 
 
