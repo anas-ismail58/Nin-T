@@ -261,7 +261,7 @@ for (let i = 0; i < navlist.length; i++) {
     });
 }
 
-let mainLinkCatogry = document.querySelectorAll('.main-link-one');
+let mainLinkCatogry = document.querySelectorAll('.main-item-one');
 
 
 for (let i = 0; i < mainLinkCatogry.length; i++) {
