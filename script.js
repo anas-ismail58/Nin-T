@@ -72,6 +72,7 @@ subList1.classList.add('sub-list__Catog');
 mainLink1.addEventListener('click', function () {
     const subListCat = document.querySelector('.sub-list__Catog');
     subListCat.classList.toggle('collapsed');
+    mainLink1.classList.toggle('show');
 });
 
 // subcatog one with subitems
@@ -145,14 +146,14 @@ mainLink2.addEventListener('click', function () {
 
 
 const subList2 = document.createElement('ul');
-for (let i = 1; i <= 3; i++) {
-    const subItem = document.createElement('li');
-    const subLink = document.createElement('a');
-    subLink.innerHTML += ` <span> الشؤون القانونية.${i} </span>`;
-    subItem.appendChild(subLink);
-    subList2.appendChild(subItem);
-    subLink.classList.add('sub-item');
-}
+// for (let i = 1; i <= 3; i++) {
+//     const subItem = document.createElement('li');
+//     const subLink = document.createElement('a');
+//     subLink.innerHTML += ` <span> الشؤون القانونية.${i} </span>`;
+//     subItem.appendChild(subLink);
+//     subList2.appendChild(subItem);
+//     subLink.classList.add('sub-item');
+// }
 mainItem2.appendChild(mainLink2);
 mainItem2.appendChild(subList2);
 
