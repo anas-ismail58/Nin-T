@@ -724,6 +724,7 @@ ul.sub-list__Catog {
     /* width: 50px; */
     overflow: hidden;
     text-overflow: clip;
+    text-align: center;
 }
 
 .theme-entry .file-wrapper.uploaded .file-table tr {
@@ -750,7 +751,7 @@ ul.sub-list__Catog {
 }
 
 .theme-entry .file-wrapper.uploaded td.file-tn-cell {
-    width: 130px;
+    width: 130px!important;
     height: 130px;
     display: flex;
     align-items: center;
