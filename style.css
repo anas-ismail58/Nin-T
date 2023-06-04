@@ -704,3 +704,14 @@ ul.sub-list__Catog {
     display: block;
     line-height: initial;
 }
+
+.input-control-wrapper,
+.input-control-wrapper input {
+    height: 100% !important;
+    text-align: right !important;
+
+}
+
+.input-control-wrapper input {
+    padding: 0 10px !important;
+}
