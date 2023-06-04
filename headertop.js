@@ -26,7 +26,7 @@ logoWrapper.classList.add('logo-wrapper');
 
 
 const formWrapper = document.createElement('div');
-formWrapper.classList.add("form-wrapper",'no-margin');
+formWrapper.classList.add("form-wrapper", 'no-margin');
 const forms = document.querySelector('.theme-entry .runtime-form');
 formWrapper.appendChild(forms);
 
@@ -42,5 +42,10 @@ for (let i = 0; i < btnPopup.length; i++) {
     btnPopup[0].innerHTML = "نعم";
     btnPopup[1].innerHTML = "الغاء";
 }
+
+
+
+var fileValue = document.querySelector('.theme-entry .file-info.file-ellipsis');
+fileValue.textContent = fileValue.textContent.split('(')[0];
 
 

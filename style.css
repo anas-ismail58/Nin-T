@@ -692,14 +692,14 @@ ul.sub-list__Catog {
 }
 
 .popup a.SFC.SourceCode-Forms-Controls-Web-Button.button:first-child::after {
-    content: "نعم";
+    content: "موافق";
     text-indent: 0;
     display: block;
     line-height: initial;
 }
 
 .popup a.SFC.SourceCode-Forms-Controls-Web-Button.button:last-child::after {
-    content: "لا";
+    content: "إلفاء";
     text-indent: 0;
     display: block;
     line-height: initial;
