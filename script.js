@@ -139,10 +139,10 @@ mainLink2.classList.add('main-link-one');
 mainLink2.innerHTML += `<span>الشؤون القانونية</span>`;
 
 
-mainLink2.addEventListener('click', function () {
-    const pageWrapper = document.querySelector('.form-nintex__wrapper');
-    pageWrapper.classList.toggle('collapsed');
-});
+// mainLink2.addEventListener('click', function () {
+//     const pageWrapper = document.querySelector('.form-nintex__wrapper');
+//     pageWrapper.classList.toggle('collapsed');
+// });
 
 
 const subList2 = document.createElement('ul');
