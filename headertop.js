@@ -45,7 +45,6 @@ for (let i = 0; i < btnPopup.length; i++) {
 
 
 
-var fileValue = document.querySelector('.theme-entry .file-info.file-ellipsis');
-fileValue.textContent = fileValue.textContent.split('(')[0];
+
 
 
