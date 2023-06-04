@@ -313,6 +313,10 @@ div {
     width: 100%;
 }
 
+.form-nintex__wrapper .form-wrapper.no-margin {
+    margin-right: 0;
+}
+
 .form-nintex__wrapper .side-menu ul {
     list-style: none;
 }

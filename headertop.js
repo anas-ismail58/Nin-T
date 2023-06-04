@@ -26,7 +26,7 @@ logoWrapper.classList.add('logo-wrapper');
 
 
 const formWrapper = document.createElement('div');
-formWrapper.classList.add("form-wrapper");
+formWrapper.classList.add("form-wrapper",'no-margin');
 const forms = document.querySelector('.theme-entry .runtime-form');
 formWrapper.appendChild(forms);
 
