@@ -658,6 +658,19 @@ ul.sub-list__Catog {
 }
 
 
+
+.theme-entry .editor-cell[col='1'],
+.mobile .theme-entry .root-table.Grid-Layout>.editor-cell.lastcellinrow,
+.mobile .theme-entry .root-table.editor-grid>.editor-cell.lastcellinrow {
+    padding: 20px !important;
+}
+
+.mobile .theme-entry .grid-header,
+.mobile .theme-entry .panel-header,
+.theme-entry .view .grid-header-wrapper {
+    height: auto !important;
+}
+
 @media (max-width: 991.98px) {
 
     .side-menu {
