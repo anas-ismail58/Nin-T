@@ -30,43 +30,11 @@ formWrapper.classList.add("form-wrapper");
 const forms = document.querySelector('.theme-entry .runtime-form');
 formWrapper.appendChild(forms);
 
-
-
-let noData = document.createElement('div');
-noData.classList.add('no-date-content');
-
-formWrapper.appendChild(noData);
-noData.style.display = "none";
-noData.textContent = 'هذه الخدمه غير متوفره الان';
-
-
-
-
-// Add the side menu container to the page
 document.body.appendChild(pageWrapper);
 
 pageWrapper.appendChild(Topheader);
 
-// pageWrapper.appendChild(sideMenu);
-
 pageWrapper.appendChild(formWrapper);
-
-
-
-
-let navlist = document.querySelectorAll('.sub-item');
-
-for (let i = 0; i < navlist.length; i++) {
-    navlist[i].addEventListener('click', function () {
-        for (let x = 0; x < navlist.length; x++) {
-            if (navlist[x] == this) {
-                navlist[x].classList.add('active');
-            } else {
-                navlist[x].classList.remove('active');
-            }
-        }
-    });
-}
 
 
 var btnPopup = document.querySelectorAll('.popup a.SourceCode-Forms-Controls-Web-Button');
