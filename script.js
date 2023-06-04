@@ -247,7 +247,7 @@ for (let i = 0; i < btnPopup.length; i++) {
 }
 
 
-const changePdf = document.querySelectorAll('.pdf-link');
-changePdf.forEach(function (element) {
-    element = element.split('.pdf')[0] + '.pdf'; 
-});
+// const changePdf = document.querySelectorAll('.pdf-link');
+// changePdf.forEach(function (element) {
+//     element = element.split('.pdf')[0] + '.pdf';
+// });
