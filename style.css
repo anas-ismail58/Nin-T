@@ -685,3 +685,22 @@ ul.sub-list__Catog {
         margin-right: 0;
     }
 }
+
+.popup a.SFC.SourceCode-Forms-Controls-Web-Button.button {
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+.popup a.SFC.SourceCode-Forms-Controls-Web-Button.button:first-child::after {
+    content: "نعم";
+    text-indent: 0;
+    display: block;
+    line-height: initial;
+}
+
+.popup a.SFC.SourceCode-Forms-Controls-Web-Button.button:last-child::after {
+    content: "لا";
+    text-indent: 0;
+    display: block;
+    line-height: initial;
+}
