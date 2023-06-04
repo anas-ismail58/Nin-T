@@ -248,11 +248,15 @@ for (let i = 0; i < btnPopup.length; i++) {
 // });
 
 
-const links = document.querySelectorAll(".main-item-one");
+// const linkss = document.querySelectorAll(".main-item-one");
 
-links.forEach((link) => {
-    link.addEventListener("click", function () {
-        links.forEach((e) => { e.classList.remove('active') })
-        this.classList.add('active')
-    })
-})
+// linkss.forEach((link) => {
+//     link.addEventListener("click", function () {
+//         linkss.forEach((e) => {
+//             if (e.classList.contains('active')) {
+//                 e.classList.remove('active')
+//             }
+//         })
+//         this.classList.add('active')
+//     })
+// })
