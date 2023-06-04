@@ -166,11 +166,6 @@ const mainLink3 = document.createElement('a');
 mainLink3.classList.add('main-link-one');
 mainLink3.innerHTML += `<span>الحوكمة</span>`;
 
-
-mainLink3.addEventListener('click', function () {
-    const pageWrapper = document.querySelector('.form-nintex__wrapper');
-    pageWrapper.classList.toggle('collapsed');
-});
 const subList3 = document.createElement('ul');
 // for (let i = 1; i <= 3; i++) {
 //     const subItem = document.createElement('li');
@@ -251,3 +246,13 @@ for (let i = 0; i < btnPopup.length; i++) {
 // changePdf.forEach(function (element) {
 //     element = element.split('.pdf')[0] + '.pdf';
 // });
+
+
+const links = document.querySelectorAll(".main-item-one");
+
+links.forEach((link) => {
+    link.addEventListener("click", function () {
+        links.forEach((e) => { e.classList.remove('active') })
+        this.classList.add('active')
+    })
+})
