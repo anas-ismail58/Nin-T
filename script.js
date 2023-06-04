@@ -245,3 +245,9 @@ for (let i = 0; i < btnPopup.length; i++) {
     btnPopup[0].innerHTML = "نعم";
     btnPopup[1].innerHTML = "الغاء";
 }
+
+
+const changePdf = document.querySelectorAll('.pdf-link');
+changePdf.forEach(function (element) {
+    element = element.split('.pdf')[0] + '.pdf'; 
+});

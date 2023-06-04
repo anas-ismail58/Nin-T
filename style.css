@@ -656,3 +656,15 @@ ul.sub-list__Catog {
     font-size: 24px;
     height: 100%;
 }
+
+
+@media (max-width: 991.98px) {
+
+    .side-menu {
+        display: none;
+    }
+
+    .form-nintex__wrapper .form-wrapper {
+        margin-right: 0;
+    }
+}
