@@ -197,9 +197,12 @@ div {
     margin-bottom: 20px;
 }
 
-.theme-entry .panel.with-header.without-toolbar>.panel-body,
 .theme-entry .panel.without-header.with-toolbar>.panel-body {
-    padding: 10px;
+    padding: 10px 10px 20px 10px;
+}
+
+.theme-entry .panel.with-header.without-toolbar>.panel-body {
+    background-color: #fff;
 }
 
 .theme-entry .panel.without-header.without-toolbar>.panel-body,
@@ -207,6 +210,39 @@ div {
 .theme-entry .panel.with-header.without-toolbar>.panel-body {
     /* padding: 5px; */
     border-radius: 0;
+}
+
+
+
+.theme-entry .view .panel-header,
+.theme-entry .view .panel-header-wrapper {
+    font-size: 24px;
+    color: #004C87;
+    background: transparent;
+}
+
+.runtime-form.theme-entry .row:nth-child(2) {
+    margin-right: 19%;
+    width: 77% !important;
+    padding: 0 !important;
+}
+
+.runtime-form.theme-entry .row:nth-child(2) .formcontrol>div {
+    padding: 0 !important;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.theme-entry .panel.with-header.without-toolbar>.panel-body {
+    padding: 0
+}
+
+.theme-entry a.SourceCode-Forms-Controls-Web-Button:hover {
+    background: #0066CC;
+    border-color: #0066CC;
+    color: #fff;
 }
 
 /* .theme-entry .panel .panel-body-wrapper {
@@ -244,8 +280,16 @@ div {
 }
 
 .theme-entry .form .view .innerpanel>.panel {
-    background-color: #f1f1f1;
+    background-color: transparent;
     border-radius: 0;
+}
+
+.theme-entry .view .panel-header,
+.theme-entry .view .panel-header-wrapper {
+    padding: 10px;
+    font-size: 24px;
+    color: #004C87;
+    background: transparent;
 }
 
 /* trans */
