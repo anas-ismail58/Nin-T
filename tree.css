@@ -8,16 +8,17 @@ body.theme-entry {
 }
 
 .runtime-form.theme-entry .row .view:nth-child(2) {
+    margin-right: 19%;
+    width: 77% !important;
+    background-color: transparent !important;
+    padding-top: 40px;
+}
+
+.runtime-form.theme-entry .row .view:nth-child(1) {
     position: fixed;
     right: 0;
     top: 0;
     width: 18% !important;
-}
-
-.runtime-form.theme-entry .row .view:nth-child(1) {
-    margin-right: 18%;
-    width: 81% !important;
-    background-color: transparent !important;
 }
 
 .runtime-content {
@@ -26,7 +27,7 @@ body.theme-entry {
 
 .theme-entry .form {
     background: transparent;
-    padding: 0;
+    padding: 0 !important;
     display: flex;
     flex-direction: column;
 }
@@ -65,4 +66,8 @@ body.theme-entry {
 
 .SourceCode-Forms-Controls-Web-ControlPack-TreeView .node-container {
     padding-right: 0;
+}
+
+html[dir=ltr] .form .row>*:first-child>* {
+    margin-right: 0 !important;
 }
