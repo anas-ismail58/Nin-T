@@ -20,6 +20,7 @@ body.theme-entry {
     top: 0;
     width: 18% !important;
     background-color: #004C87;
+    height: 100%;
 }
 
 .runtime-content {
