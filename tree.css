@@ -3,6 +3,283 @@ body.theme-entry {
     background-color: #EAEAEA;
 }
 
+
+/* theme nintex */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+/* @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"); */
+
+
+/* new */
+body.theme-entry {
+    direction: rtl;
+    font-family: 'cairo' !important;
+}
+
+.theme-entry .input-control textarea {
+    height: 100px;
+}
+
+.theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.watermark,
+.theme-entry .input-control-watermark,
+.theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.readonly,
+.theme-entry input[type=text].input-control.readonly,
+.theme-entry input[type=password].input-control.readonly,
+.theme-entry .input-control.select-box {
+    height: 40px;
+    border-radius: 5px !important;
+    border-color: #0066CC;
+}
+
+.SourceCode-Forms-Controls-Web-Table.Grid-Layout {
+    gap: 10px;
+}
+
+.theme-entry span.SourceCode-Forms-Controls-Web-Label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #004C87;
+    text-align: right;
+}
+
+.theme-entry .form {
+    background-color: #F6F6F6;
+    padding: 20px !important;
+}
+
+.theme-entry .grid table.grid-column-header-table td {
+    min-height: 50px;
+    height: 50px !important;
+    color: #222;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.theme-entry .grid table.grid-content-table>tbody>tr>td,
+.theme-entry .grid table.grid-content-table>tr>td {
+    border: 1px dotted transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-left-color: var(--list-column-header-border-color);
+    border-style: solid;
+}
+
+.theme-entry .grid table.grid-column-header-table td {
+    border-right: 0;
+}
+
+.theme-entry .grid table.grid-content-table>tbody>tr>td:last-child,
+.theme-entry .grid table.grid-content-table tr td:last-child {
+    border: 0;
+}
+
+.theme-entry .grid .grid-column-headers div,
+.theme-entry .grid .grid-column-headers span {
+    color: #222;
+    opacity: 1;
+}
+
+.theme-entry a.SourceCode-Forms-Controls-Web-Button {
+    background: #0066CC;
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    color: #fff;
+    margin-top: 10px !important;
+    display: flex;
+    /* flex: 0 0 auto; */
+    min-width: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    font-family: 'cairo' !important;
+}
+
+.theme-entry .view .grid-header-wrapper {
+    background-color: #fff;
+
+}
+
+.grid-header .grid-header-text {
+    padding: 20px;
+    /* border-bottom: 1px solid #ddd; */
+}
+
+/*  */
+
+.theme-entry {
+    font-family: 'cairo' !important;
+}
+
+.theme-entry .form {
+    padding: 12px;
+}
+
+html[dir=ltr] .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c {
+    border-right-width: 1px !important;
+    border-radius: 0 5px 5px 0 !important;
+    border-left-width: 0;
+
+}
+
+html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
+    border-radius: 5px 0 0 5px !important;
+    border-width: 1px 1px 1px 1px;
+    border-right-width: 0
+}
+
+.theme-entry .input-control.watermark a.input-control span {
+    font-size: inherit;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 6px;
+}
+
+span,
+div {
+    font-family: 'cairo' !important;
+}
+
+.theme-entry .form .view .innerpanel>.grid,
+.theme-entry #pgInnerPanel .view .innerpanel>.grid,
+.theme-entry .form-tabs>.tab-box-body .view .innerpanel>.grid,
+.theme-entry #pgTabContent .view .innerpanel>.grid,
+.theme-entry .form .view .innerpanel>.panel,
+.theme-entry #pgInnerPanel .view .innerpanel>.panel,
+.theme-entry .form-tabs>.tab-box-body .view .innerpanel>.panel,
+.theme-entry #pgTabContent .view .innerpanel>.panel,
+.theme-entry .form .view-canvas>.grid,
+.theme-entry #pgInnerPanel .view-canvas>.grid,
+.theme-entry .form-tabs>.tab-box-body .view-canvas>.grid,
+.theme-entry #pgTabContent .view-canvas>.grid,
+.theme-entry .form .view-canvas>.panel,
+.theme-entry #pgInnerPanel .view-canvas>.panel,
+.theme-entry .form-tabs>.tab-box-body .view-canvas>.panel,
+.theme-entry #pgTabContent .view-canvas>.panel {
+    padding-bottom: 20px;
+}
+
+.theme-entry .editor-cell {
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .2); */
+}
+
+.theme-entry .view .grid-header-wrapper .grid-header-text {
+    font-size: 20px;
+
+}
+
+.theme-entry .grid-header-wrapper {
+    padding: 10px;
+    color: #004C87;
+    font-weight: bold;
+}
+
+.theme-entry .grid .grid-column-header-divider {
+    background-color: transparent;
+}
+
+.theme-entry .grid-header-wrapper,
+.theme-entry .panel-header,
+.theme-entry .panel-header-c,
+.theme-entry .panel-header-wrapper {
+    min-height: 40px;
+    overflow: unset;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.theme-entry .panel.with-header.without-toolbar>.panel-body,
+.theme-entry .panel.without-header.with-toolbar>.panel-body {
+    padding: 10px;
+}
+
+.theme-entry .panel.without-header.without-toolbar>.panel-body,
+.theme-entry .panel.without-header.with-toolbar>.panel-body,
+.theme-entry .panel.with-header.without-toolbar>.panel-body {
+    padding: 5px;
+}
+
+.theme-entry .panel .panel-body-wrapper {
+    padding: 10px;
+}
+
+/* .theme-entry [name="POC_Request_Action_Form Area Item"] .root-table.Grid-Layout>.editor-cell.lastrow:last-child {
+    background: transparent;
+    box-shadow: unset;
+} */
+
+/* .SFC.SourceCode-Forms-Controls-Web-Table.Grid-Layout.root-table span[name="Cell Cell13"]:last-child {
+    background: transparent;
+    box-shadow: unset;
+}
+
+.theme-entry [name="POC_Request_Action_Form Area Item8"] .root-table.Grid-Layout>.editor-cell.lastrow,
+.theme-entry [name="POC_Request_Action_Form Area Item3"] .root-table.Grid-Layout>.editor-cell.lastrow {
+    background: transparent;
+    box-shadow: unset;
+    padding: 0;
+} */
+
+.theme-entry .grid .grid-body {
+    padding: 0 10px;
+}
+
+.formcontrol>div {
+    padding: 0 20px;
+}
+
+.form .row>* {
+    margin-top: 0 !important;
+
+}
+
+.theme-entry .form .view .innerpanel>.panel {
+    background-color: #f1f1f1;
+}
+
+/* trans */
+
+/* .theme-entry .view [name="POC_Request_Action_Form Area Item3"] .panel-header {
+    background: rgba(0, 102, 204, 0.15);
+} */
+
+
+/* .theme-entry .form .view .innerpanel [name="POC_Request_Action_Form Area Item3"] .panel,
+.theme-entry .view .panel-header-wrapper,
+.theme-entry .view .panel-header,
+.visible.panel.scroll-contents.with-header.without-toolbar.without-footer,
+.visible.panel.scroll-contents.with-header.without-toolbar.without-footer {
+    background: rgba(0, 102, 204, 0.1);
+} */
+
+.theme-entry .grid table.grid-column-header-table td {
+    background: transparent;
+}
+
+/* .theme-entry .view .grid-header-wrapper {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .1)
+}
+
+[name="POC_Request_Action_Form Area Item1"] {
+    background: rgba(0, 102, 204, 0.2) !important;
+} */
+
+.theme-entry .grid table.grid-column-header-table {
+    width: 100% !important;
+}
+
+
+
+/* theme nintex */
+
 .theme-entry .panel .panel-body-wrapper {
     background-color: transparent !important;
 }
