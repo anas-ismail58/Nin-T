@@ -35,6 +35,7 @@ body.theme-entry {
 
 .SourceCode-Forms-Controls-Web-Table.Grid-Layout {
     gap: 10px;
+    border-radius: 0;
 }
 
 .theme-entry span.SourceCode-Forms-Controls-Web-Label {
@@ -161,7 +162,7 @@ div {
 .theme-entry #pgInnerPanel .view-canvas>.panel,
 .theme-entry .form-tabs>.tab-box-body .view-canvas>.panel,
 .theme-entry #pgTabContent .view-canvas>.panel {
-    padding-bottom: 20px;
+    padding-bottom: 0;
 }
 
 .theme-entry .editor-cell {
@@ -204,12 +205,13 @@ div {
 .theme-entry .panel.without-header.without-toolbar>.panel-body,
 .theme-entry .panel.without-header.with-toolbar>.panel-body,
 .theme-entry .panel.with-header.without-toolbar>.panel-body {
-    padding: 5px;
+    /* padding: 5px; */
+    border-radius: 0;
 }
 
-.theme-entry .panel .panel-body-wrapper {
+/* .theme-entry .panel .panel-body-wrapper {
     padding: 10px;
-}
+} */
 
 /* .theme-entry [name="POC_Request_Action_Form Area Item"] .root-table.Grid-Layout>.editor-cell.lastrow:last-child {
     background: transparent;
@@ -243,6 +245,7 @@ div {
 
 .theme-entry .form .view .innerpanel>.panel {
     background-color: #f1f1f1;
+    border-radius: 0;
 }
 
 /* trans */
@@ -281,7 +284,8 @@ div {
 /* theme nintex */
 
 .theme-entry .panel .panel-body-wrapper {
-    background-color: transparent !important;
+    /* background-color: transparent !important; */
+    border-radius: 0;
 }
 
 .runtime-form.theme-entry .row .view:nth-child(2) {
@@ -298,6 +302,15 @@ div {
     width: 18% !important;
     background-color: #004C87;
     height: 100%;
+    border-radius: 0;
+}
+
+
+.theme-entry .view:nth-child(1) .root-table.Grid-Layout>.editor-cell.lastrow,
+.theme-entry .view:nth-child(1) .root-table.editor-grid>.editor-cell.lastrow {
+    padding: 0;
+    border-radius: 0;
+    border: 0;
 }
 
 .runtime-content {
@@ -311,11 +324,16 @@ div {
     flex-direction: column;
 }
 
-.theme-entry .root-table.Grid-Layout>.editor-cell.lastrow,
+.theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox {
+    height: 40px;
+}
+
+/* .theme-entry .root-table.Grid-Layout>.editor-cell.lastrow,
 .theme-entry .root-table.editor-grid>.editor-cell.lastrow {
     padding: 0;
     border: 0;
-}
+    border-radius: 0;
+} */
 
 .theme-entry .SourceCode-Forms-Controls-Web-ControlPack-TreeView .stylewrapper {
     background-color: #004C87;
@@ -355,6 +373,7 @@ div {
 
 html[dir=ltr] .form .row>*:first-child>* {
     margin-right: 0 !important;
+    border-radius: 0 !important;
 }
 
 .SourceCode-Forms-Controls-Web-ControlPack-TreeView .node .content {
