@@ -1,0 +1,68 @@
+body.theme-entry {
+    direction: rtl;
+    background-color: #EAEAEA;
+}
+
+.theme-entry .panel .panel-body-wrapper {
+    background-color: transparent !important;
+}
+
+.runtime-form.theme-entry .row .view:nth-child(2) {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 18% !important;
+}
+
+.runtime-form.theme-entry .row .view:nth-child(1) {
+    margin-right: 18%;
+    width: 81% !important;
+    background-color: transparent !important;
+}
+
+.runtime-content {
+    margin: 0 !important;
+}
+
+.theme-entry .form {
+    background: transparent;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.theme-entry .root-table.Grid-Layout>.editor-cell.lastrow,
+.theme-entry .root-table.editor-grid>.editor-cell.lastrow {
+    padding: 0;
+    border: 0;
+}
+
+.theme-entry .SourceCode-Forms-Controls-Web-ControlPack-TreeView .stylewrapper {
+    background-color: #004C87;
+    border: 0 !important;
+    border-radius: 0;
+    padding-top: 20px;
+}
+
+
+
+.theme-entry .SourceCode-Forms-Controls-Web-ControlPack-TreeView .node>.content>.header .text {
+    font-size: 16px !important;
+    color: #fff !important;
+}
+
+.SourceCode-Forms-Controls-Web-ControlPack-TreeView .tree-body>.node-container {
+    padding-right: 0;
+
+}
+
+.theme-entry .SourceCode-Forms-Controls-Web-ControlPack-TreeView .node>.content>.header:hover {
+    background-color: transparent !important;
+    border: 0;
+    color: #ddd;
+    cursor: default;
+}
+
+.SourceCode-Forms-Controls-Web-ControlPack-TreeView .node-container {
+    padding-right: 0;
+}
