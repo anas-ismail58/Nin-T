@@ -750,3 +750,9 @@ panel-header-wrapper {
 .row.row1 {
     padding-top: 120px;
 }
+
+.Grid-Layout>.editor-cell.align-right,
+.SourceCode-Forms-Controls-Web-Table>tbody>tr>.editor-cell.align-right {
+    text-align: right !important;
+    justify-content: flex-start !important;
+}
