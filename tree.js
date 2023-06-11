@@ -57,7 +57,5 @@ for (let i = 0; i < row.length; i++) {
 
 
 var textContentPosition = document.querySelector('[name="Position_Title"]').textContent;
-
-var positionText = document.querySelector('position-title').textContent;
-
-textContentPosition = positionText.innerHTML;
+var positionText = document.querySelector('.position-title');
+positionText.textContent = textContentPosition;
