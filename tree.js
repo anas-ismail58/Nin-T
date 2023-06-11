@@ -63,26 +63,34 @@ for (let i = 0; i < row.length; i++) {
 //     positionText.textContent = textContentPosition;
 // });
 
-document.onreadystatechange = function () {
-    if (document.readyState == "complete") {
-        var textContentPosition = document.querySelector('[name="Position_Title"]').textContent;
-        var positionText = document.querySelector('.position-title');
-        positionText.textContent = textContentPosition;
-        document.querySelector('[name="Position_Title"]').textContent = " ";
-        console.log(textContentPosition);
+// document.onreadystatechange = function () {
+//     if (document.readyState == "complete") {
+//         var textContentPosition = document.querySelector('[name="Position_Title"]');
+//         var positionText = document.querySelector('.position-title');
+
+//         positionText.appendChild(textContentPosition);
+
+//         positionText.textContent = textContentPosition;
+//         // document.querySelector('[name="Position_Title"]').textContent = " ";
+//         // console.log(textContentPosition);
+
+//     }
+// }
+var textContentPosition = document.querySelector('[name="Position_Title"]');
+var positionText = document.querySelector('.position-title');
+
+positionText.appendChild(textContentPosition);
+
+// positionText.textContent = textContentPosition;
 
 
-        var treeElement = document.querySelectorAll('.nodes .node[data-source="Side_Menu_Category"]');
 
-        for (let index = 0; index < treeElement.length; index++) {
-            treeElement[0].classList.remove('collapsed');
-            treeElement[0].classList.add('expanded');
-        }
-    }
-}
+// var treeElement = document.querySelectorAll('.nodes .node[data-source="Side_Menu_Category"]');
 
-
-
+// for (let index = 0; index < treeElement.length; index++) {
+//     treeElement[0].classList.remove('collapsed');
+//     treeElement[0].classList.add('expanded');
+// }
 
 // var textContentPosition = document.querySelector('[name="Position_Title"]').textContent;
 // var positionText = document.querySelector('.position-title');
