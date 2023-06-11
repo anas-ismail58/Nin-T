@@ -70,16 +70,19 @@ document.onreadystatechange = function () {
         positionText.textContent = textContentPosition;
         document.querySelector('[name="Position_Title"]').textContent = " ";
         console.log(textContentPosition);
+
+
+        var treeElement = document.querySelectorAll('.nodes .node[data-source="Side_Menu_Category"]');
+
+        for (let index = 0; index < treeElement.length; index++) {
+            treeElement[0].classList.remove('collapsed');
+            treeElement[0].classList.add('expanded');
+        }
     }
 }
 
 
-var treeElement = document.querySelectorAll('.nodes .node[data-source="Side_Menu_Category"]');
 
-for (let index = 0; index < treeElement.length; index++) {
-    treeElement[0].classList.remove('collapsed');
-    treeElement[0].classList.add('expanded');
-}
 
 // var textContentPosition = document.querySelector('[name="Position_Title"]').textContent;
 // var positionText = document.querySelector('.position-title');
