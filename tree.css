@@ -723,3 +723,30 @@ panel-header-wrapper {
 .input-control-wrapper input {
     padding: 0 10px !important;
 }
+
+
+.runtime-form.theme-entry .row .view {
+    background-color: #fff !important;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .2);
+    margin-bottom: 20px;
+}
+
+.runtime-form.theme-entry .row .view .innerpanel {
+    padding: 20px;
+
+}
+
+.runtime-form.theme-entry .row .tree-wrapper__row__form.view .innerpanel {
+    padding: 0;
+}
+
+.runtime-form.theme-entry .row .formcontrol {
+    margin-right: 19%;
+    width: 80% !important;
+}
+
+.row.row1 {
+    padding-top: 120px;
+}
