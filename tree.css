@@ -286,7 +286,7 @@ div {
 
 .theme-entry .view .panel-header,
 .theme-entry .view .panel-header-wrapper {
-    padding: 10px;
+    padding: 10px 0;
     font-size: 24px;
     color: #004C87;
     background: transparent;
@@ -584,8 +584,27 @@ li.node[data-source="SubMenu"].selectable.empty.populated.focus.selected {
 .header-top__logo__img img {
     height: 100%;
 }
-.header-top__user__name  {
+
+.header-top__user__name {
     display: flex;
     flex-direction: column;
-    
+
+}
+
+.runtime-form.theme-entry .row:nth-child(3) .formcontrol {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.runtime-form.theme-entry .row:nth-child(2) .view .innerpanel {
+    margin: 0 !important;
+}
+
+.runtime-form.theme-entry .row:nth-child(3) {
+    margin-right: 19%;
+    width: 77% !important;
+}
+
+.runtime-form.theme-entry .row>.formcontrol>* {
+    padding: 0;
 }
