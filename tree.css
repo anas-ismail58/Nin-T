@@ -342,7 +342,7 @@ div {
 .runtime-form.theme-entry .row .view:nth-child(1) {
     position: fixed;
     right: 0;
-    top: 0;
+    top: 95px;
     width: 18% !important;
     background-color: #004C87;
     height: 100%;
@@ -538,4 +538,49 @@ li.node.populated.expanded {
 
 li.node[data-source="SubMenu"].selectable.empty.populated.focus.selected {
     margin-top: 12px;
+}
+
+
+
+/* top header */
+
+
+.top-header {
+    height: 94px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.header-top__logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 23px;
+    height: 100%;
+}
+
+.header-top__user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header-top__user__avatar {
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.header-top__logo__img {
+    height: 100%;
+}
+
+.header-top__logo__img img {
+    height: 100%;
 }
