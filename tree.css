@@ -617,17 +617,19 @@ li.node[data-source="SubMenu"].selectable.empty.populated.focus.selected {
 
 .theme-entry .file-wrapper.uploaded .file-info.file-ellipsis {
     white-space: nowrap;
-    /* width: 50px; */
+    width: 80%;
     overflow: hidden;
     text-overflow: clip;
     text-align: center;
+    margin: 0 auto;
+    direction: ltr;
 }
 
 .theme-entry .file-wrapper.uploaded .file-table tr {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 30%;
+    width: 45%;
     background: rgba(0, 102, 204, 0.09);
     border-radius: 5px;
     height: 100px;
