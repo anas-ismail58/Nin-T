@@ -67,9 +67,9 @@ document.onreadystatechange = function () {
     if (document.readyState == "complete") {
         var textContentPosition = document.querySelector('[name="Position_Title"]').textContent;
         var positionText = document.querySelector('.position-title');
+        positionText.textContent = textContentPosition;
         textContentPosition = "";
         console.log(textContentPosition);
-        positionText.textContent = textContentPosition;
     }
 }
 
