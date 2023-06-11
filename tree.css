@@ -706,3 +706,7 @@ panel-header-wrapper {
     display: block;
     z-index: 1
 }
+
+.panel-header-text {
+    height: 100% !important;
+}
