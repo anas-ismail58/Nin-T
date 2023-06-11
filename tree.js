@@ -16,7 +16,7 @@ Topheader.innerHTML += `<div class="header-top__logo">
     </div>
     <div class="header-top__user__name">
         <span>عبدالرحمن سلامة</span>
-        <span>مكتب معالى المحافظ</span>
+        <span class="position-title"></span>
     </div>
 </div>
 </div>`
@@ -54,3 +54,10 @@ tree.closest('.view').classList.add('tree-wrapper__row__form');
 for (let i = 0; i < row.length; i++) {
     row[i].classList.add('row' + i);
 }
+
+
+var textContentPosition = document.querySelector('[name="Position_Title"]').textContent;
+
+var positionText = document.querySelector('position-title').textContent;
+
+textContentPosition = positionText.innerHTML;
