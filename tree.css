@@ -225,13 +225,13 @@ div {
     background: transparent;
 }
 
-.runtime-form.theme-entry .row:nth-child(2) {
+/* .runtime-form.theme-entry .row:nth-child(2) {
     margin-right: 19%;
     width: 77% !important;
     padding: 0 !important;
-}
+} */
 
-.runtime-form.theme-entry .row:nth-child(2) .formcontrol>div {
+.runtime-form.theme-entry .row:last-child .formcontrol>div {
     padding: 0 !important;
     margin-top: 30px;
     display: flex;
