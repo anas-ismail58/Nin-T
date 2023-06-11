@@ -65,11 +65,10 @@ for (let i = 0; i < row.length; i++) {
 
 document.onreadystatechange = function () {
     if (document.readyState == "complete") {
-        var textContentPosition = document.querySelector('[name="Position_Title"]');
-        var textContentPositionValue = textContentPosition.textContent;
+        var textContentPosition = document.querySelector('[name="Position_Title"]').textContent;
         var positionText = document.querySelector('.position-title');
-        positionText.textContent = textContentPositionValue;
-        textContentPosition.textContent = " ";
+        positionText.textContent = textContentPosition;
+        document.querySelector('[name="Position_Title"]').textContent = " ";
         console.log(textContentPosition);
     }
 }
