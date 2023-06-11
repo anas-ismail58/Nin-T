@@ -16,6 +16,7 @@ Topheader.innerHTML += `<div class="header-top__logo">
     </div>
     <div class="header-top__user__name">
         <span>عبدالرحمن سلامة</span>
+        <span>مكتب معالى المحافظ</span>
     </div>
 </div>
 </div>`

@@ -336,7 +336,7 @@ div {
     /* margin-right: 19%; */
     width: 100% !important;
     background-color: transparent !important;
-    padding-top: 40px;
+    padding-top: 70px;
 }
 
 .runtime-form.theme-entry .row .view:nth-child(1) {
@@ -583,4 +583,9 @@ li.node[data-source="SubMenu"].selectable.empty.populated.focus.selected {
 
 .header-top__logo__img img {
     height: 100%;
+}
+.header-top__user__name  {
+    display: flex;
+    flex-direction: column;
+    
 }
