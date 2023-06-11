@@ -747,6 +747,11 @@ panel-header-wrapper {
 .runtime-form.theme-entry .row .formcontrol {
     margin-right: 19%;
     width: 80% !important;
+    padding-bottom: 20px;
+}
+
+[name="Reject Button1"] {
+    background-color: #e03939 !important;
 }
 
 .row.row1 {
