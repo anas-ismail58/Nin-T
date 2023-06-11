@@ -756,3 +756,8 @@ panel-header-wrapper {
     text-align: right !important;
     justify-content: flex-start !important;
 }
+
+.theme-entry .form .view .innerpanel>.grid,
+.theme-entry .grid .grid-column-headers {
+    background: transparent !important;
+}
