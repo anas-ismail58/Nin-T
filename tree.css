@@ -333,8 +333,8 @@ div {
 }
 
 .runtime-form.theme-entry .row .view:nth-child(2) {
-    margin-right: 19%;
-    width: 77% !important;
+    /* margin-right: 19%; */
+    /* width: 77% !important; */
     background-color: transparent !important;
     padding-top: 40px;
 }
