@@ -340,7 +340,7 @@ div {
     margin-right: 19%;
     width: 80% !important;
     background-color: transparent !important;
-    padding-top: 70px;
+    /* padding-top: 70px; */
 }
 
 .runtime-form.theme-entry .row .tree-wrapper__row__form.view {
@@ -597,19 +597,19 @@ li.node[data-source="SubMenu"].selectable.empty.populated.focus.selected {
 
 }
 
-.runtime-form.theme-entry .row:nth-child(3) .formcontrol {
+/* .runtime-form.theme-entry .row:nth-child(3) .formcontrol {
     display: flex;
     justify-content: flex-end;
-}
+} */
 
 .runtime-form.theme-entry .row:nth-child(2) .view .innerpanel {
     margin: 0 !important;
 }
 
-.runtime-form.theme-entry .row:nth-child(3) {
+/* .runtime-form.theme-entry .row:nth-child(3) {
     margin-right: 19%;
     width: 77% !important;
-}
+} */
 
 .runtime-form.theme-entry .row>.formcontrol>* {
     padding: 0;
