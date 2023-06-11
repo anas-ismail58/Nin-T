@@ -629,7 +629,7 @@ li.node[data-source="SubMenu"].selectable.empty.populated.focus.selected {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 45%;
+    width: 35%;
     background: rgba(0, 102, 204, 0.09);
     border-radius: 5px;
     height: 100px;
