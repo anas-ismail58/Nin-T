@@ -47,7 +47,7 @@ for (let i = 0; i < btnPopup.length; i++) {
 
 var tree = document.querySelector('span.SFC.SourceCode-Forms-Controls-Web-DataLabel.empty');
 var row = document.querySelectorAll('.row');
-tree.closest('.row').classList.add('tree-wrapper__row__form');
+tree.closest('.view').classList.add('tree-wrapper__row__form');
 
 // tree.closest('.row').classList.add('tree-wrapper__row__form');
 

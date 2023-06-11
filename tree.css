@@ -336,14 +336,14 @@ div {
     border-radius: 0;
 }
 
-.runtime-form.theme-entry .row .view:nth-child(2) {
-    /* margin-right: 19%; */
-    width: 100% !important;
+.runtime-form.theme-entry .row .view {
+    margin-right: 19%;
+    width: 80% !important;
     background-color: transparent !important;
     padding-top: 70px;
 }
 
-.runtime-form.theme-entry .row .view:nth-child(1) {
+.runtime-form.theme-entry .row .tree-wrapper__row__form.view {
     position: fixed;
     right: 0;
     top: 95px;
@@ -721,4 +721,3 @@ panel-header-wrapper {
 .input-control-wrapper input {
     padding: 0 10px !important;
 }
-
