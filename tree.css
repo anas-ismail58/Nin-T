@@ -334,7 +334,7 @@ div {
 
 .runtime-form.theme-entry .row .view:nth-child(2) {
     /* margin-right: 19%; */
-    /* width: 77% !important; */
+    width: 100% !important;
     background-color: transparent !important;
     padding-top: 40px;
 }
