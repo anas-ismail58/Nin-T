@@ -43,3 +43,14 @@ for (let i = 0; i < btnPopup.length; i++) {
     btnPopup[0].innerHTML = "نعم";
     btnPopup[1].innerHTML = "الغاء";
 }
+
+
+var tree = document.querySelector('span.SFC.SourceCode-Forms-Controls-Web-DataLabel.empty');
+var row = document.querySelectorAll('.row');
+tree.closest('.row').classList.add('tree-wrapper__row__form');
+
+// tree.closest('.row').classList.add('tree-wrapper__row__form');
+
+for (let i = 0; i < row.length; i++) {
+    row[i].classList.add('row' + i);
+}
