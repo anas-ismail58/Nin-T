@@ -42,9 +42,3 @@ for (let i = 0; i < btnPopup.length; i++) {
     btnPopup[0].innerHTML = "نعم";
     btnPopup[1].innerHTML = "الغاء";
 }
-
-
-
-
-
-
