@@ -710,3 +710,14 @@ panel-header-wrapper {
 .panel-header-text {
     height: 100% !important;
 }
+
+.input-control-wrapper,
+.input-control-wrapper input {
+    height: 100% !important;
+    text-align: right !important;
+
+}
+
+.input-control-wrapper input {
+    padding: 0 10px !important;
+}
