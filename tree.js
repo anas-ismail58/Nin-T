@@ -56,6 +56,12 @@ for (let i = 0; i < row.length; i++) {
 }
 
 
+document.addEventListener("DOMContentLoaded", () => {
+    var textContentPosition = document.querySelector('[name="Position_Title"]').textContent;
+    var positionText = document.querySelector('.position-title');
+    positionText.textContent = textContentPosition;
+});
+
 var textContentPosition = document.querySelector('[name="Position_Title"]').textContent;
 var positionText = document.querySelector('.position-title');
 positionText.textContent = textContentPosition;
