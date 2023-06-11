@@ -761,3 +761,19 @@ panel-header-wrapper {
 .theme-entry .grid .grid-column-headers {
     background: transparent !important;
 }
+
+/* date popup */
+.timepicker-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.theme-entry .calendar-outline .timepicker-content .timepicker-ok-button {
+    margin-right: 0rem;
+}
+
+a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
+    background: transparent;
+    border: 1px solid #0066CC;
+    color: #0066CC;
+}
