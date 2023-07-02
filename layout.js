@@ -36,9 +36,7 @@ render = () => {
     renderSearchBox();
 }
 
-let headers = document.querySelector('.top-header');
-let headerWrapper = document.getElementById('header-Wrapper');
-headerWrapper.append(headers);
+
 
 
 renderNavigation = () => isMobile() ? renderDrawer() : renderSidebar();
@@ -115,6 +113,12 @@ renderListView = () => {
 }
 
 renderHeader = () => {
+
+    let headers = document.querySelector('.top-header');
+    let headerWrapper = document.getElementById('header-Wrapper');
+    headerWrapper.append(headers);
+
+
     $('div[name="' + HEADER_AREA_ITEM_NAME + '"]').closest('.view').addClass('header');
     $('span[name="' + LOGO_CELL_NAME + '"]').addClass('logo');
     if (isMobile()) {
