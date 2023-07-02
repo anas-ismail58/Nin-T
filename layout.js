@@ -17,7 +17,7 @@ isMobile = () => $('html').hasClass("mobile");
 $(document).ready(function () {
     enableTheme();
     render();
-
+    $('#header-Wrapper').append($('.top-header'));
 
     //    detectClicks();
 });
