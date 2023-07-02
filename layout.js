@@ -37,7 +37,11 @@ render = () => {
 renderNavigation = () => isMobile() ? renderDrawer() : renderSidebar();
 
 renderSidebar = () => {
+    const topHeader = $("<div id='header-Wrapper' class='headers-container'></div>");
     const sidebar = $("<div id='sidebar' class='sidebar'></div>");
+    $('.runtime-content').append(topHeader);
+    let headers = $('.top-header');
+    topHeader.append(headers);
     $('.runtime-content').append(sidebar);
     $('.runtime-content').addClass('with-sidebar');
     if (!isMobile()) {
