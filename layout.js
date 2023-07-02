@@ -17,6 +17,10 @@ isMobile = () => $('html').hasClass("mobile");
 $(document).ready(function () {
     enableTheme();
     render();
+
+    let headers = document.querySelector('.top-header');
+    let headerWrapper = document.getElementById('header-Wrapper');
+    headerWrapper.append(headers);
     //    detectClicks();
 });
 
