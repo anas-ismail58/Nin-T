@@ -166,7 +166,7 @@ html,body {
 
 .theme-entry.psf .runtime-content.with-sidebar {
     justify-content: start;
-    margin-left: calc(var(--sidebar-width) + var(--sidebar-padding) + var(--sidebar-width-ratio)) !important;
+    margin-right: calc(var(--sidebar-width) + var(--sidebar-padding) + var(--sidebar-width-ratio)) !important;
 }
 
 .mobile .theme-entry.psf .runtime-content.with-sidebar {
