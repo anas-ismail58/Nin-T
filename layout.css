@@ -189,7 +189,7 @@ html,body {
     /* padding-left: 50px; */
     padding-top: 20px;
     max-width: 250px;
-    min-width: 200px;
+    /* min-width: 200px; */
 }
 
 .theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab {
@@ -199,8 +199,8 @@ html,body {
     padding-top: 20px;
     padding-bottom: 20px;
     /* padding-right: 50%;*/
-    padding-left: 20px;
-    margin-left: -20px;
+    /* padding-left: 20px; */
+    /* margin-left: -20px; */
 }
 
 .mobile .theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab {
@@ -245,13 +245,13 @@ html,body {
     padding-bottom: 1rem;
 }
 
-.theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab.selected {
+/* .theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab.selected {
     border-radius: 50px 0px 0px 50px;
-}
+} */
 
-.mobile .theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab.selected {
+/* .mobile .theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab.selected {
     border-radius: 50px 50px 50px 50px;
-}
+} */
 
 .mobile .theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab.selected .sidebar-border {
     display: none;

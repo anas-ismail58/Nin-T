@@ -25,7 +25,7 @@ body.theme-entry .psf,
 .theme-entry .form-tabs>.tab-box-body .view-canvas>.panel,
 .theme-entry #pgTabContent .view-canvas>.panel {
     --drawer-handler-width: 5rem;
-    --sidebar-width: 250px;
+    --sidebar-width: 270px;
     --sidebar-width-ratio: 1%;
     --sidebar-background-color: #0066CC;
     /*--sidebar-shadow-color: # 585858; */
