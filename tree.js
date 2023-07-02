@@ -63,19 +63,7 @@ for (let i = 0; i < row.length; i++) {
 //     positionText.textContent = textContentPosition;
 // });
 
-// document.onreadystatechange = function () {
-//     if (document.readyState == "complete") {
-//         var textContentPosition = document.querySelector('[name="Position_Title"]');
-//         var positionText = document.querySelector('.position-title');
 
-//         positionText.appendChild(textContentPosition);
-
-//         positionText.textContent = textContentPosition;
-//         // document.querySelector('[name="Position_Title"]').textContent = " ";
-//         // console.log(textContentPosition);
-
-//     }
-// }
 var textContentPosition = document.querySelector('[name="Position_Title"]');
 var positionText = document.querySelector('.position-title');
 
