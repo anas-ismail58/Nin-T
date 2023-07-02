@@ -10,6 +10,7 @@
 html,
 body {
     direction: rtl !important;
+    font-family: "swcc"!important;
 }
 
 .mobile .theme-entry.psf .header.fixed {
