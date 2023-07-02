@@ -118,9 +118,9 @@
     font-variation-settings: 'FILL' 0, 'wght' 700, 'GRAD' 0, 'opsz' 48;
 }
 
-.modile .theme-entry.psf div.sidebar {
-    /*transition: all 10ms ease;*/
-}
+/* .modile .theme-entry.psf div.sidebar {
+    transition: all 10ms ease;
+} */
 
 .mobile .theme-entry.psf div.sidebar-handler {
     padding: 0px;
