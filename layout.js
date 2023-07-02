@@ -17,6 +17,7 @@ isMobile = () => $('html').hasClass("mobile");
 $(document).ready(function () {
     enableTheme();
     render();
+    console.log('ready now');
     $('#header-Wrapper').append($('.top-header'));
 
     //    detectClicks();
@@ -176,6 +177,9 @@ renderDrawer = () => {
     renderSidebar();
     renderSlider();
 }
+
+
+
 
 /*
 
