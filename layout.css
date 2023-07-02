@@ -184,7 +184,7 @@ html,body {
     background-color: var(--sidebar-background-color);
     padding-right: var(--sidebar-padding);
     display: grid;
-    grid-template-rows: 150px auto;
+    grid-template-rows: 0px auto;
     grid-template-columns: auto;
     /* padding-left: 50px; */
     padding-top: 20px;

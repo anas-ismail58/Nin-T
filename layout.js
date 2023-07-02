@@ -43,7 +43,7 @@ renderSidebar = () => {
     if (!isMobile()) {
         let logoSpan = $('span[name="' + LOGO_CELL_NAME + '"]');
         logoSpan.addClass('logo');
-        $('<div id="logo" class="logo">' + logoSpan.html() + '</div>').prependTo($('#sidebar'));
+        // $(`<div id="logo" class="logo"> ` + logoSpan.html() + '</div>').prependTo($('#sidebar'));
         $('div.logo').height($('div.header').height())
     };
     if ($('ul.tab-box-tabs').length > 0) {
