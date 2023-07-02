@@ -47,9 +47,9 @@ renderSidebar = () => {
     $('.runtime-content').append(topHeader);
 
 
-    let headers = document.querySelector('.top-header');
-    let headerWrapper = document.getElementById('header-Wrapper');
-    headerWrapper.append(headers);
+    // let headers = document.querySelector('.top-header');
+    // let headerWrapper = document.getElementById('header-Wrapper');
+    // headerWrapper.append(headers);
 
 
     $('.runtime-content').append(sidebar);
@@ -113,10 +113,7 @@ renderListView = () => {
 }
 
 renderHeader = () => {
-
-    let headers = document.querySelector('.top-header');
-    let headerWrapper = document.getElementById('header-Wrapper');
-    headerWrapper.append(headers);
+    $('#header-Wrapper').append($('.top-header'));
 
 
     $('div[name="' + HEADER_AREA_ITEM_NAME + '"]').closest('.view').addClass('header');
