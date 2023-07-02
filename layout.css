@@ -33,7 +33,7 @@ div {
 
 
 .top-header {
-    height: 94px;
+    height: 70px;
     background: #fff;
     position: fixed;
     top: 0;
@@ -58,8 +58,8 @@ div {
 }
 
 .header-top__user__avatar {
-    width: 57px;
-    height: 57px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
     overflow: hidden;
 }
