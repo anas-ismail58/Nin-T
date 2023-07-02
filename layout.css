@@ -227,7 +227,7 @@ div {
     justify-content: start;
     /* margin-right: calc(var(--sidebar-width) + var(--sidebar-padding) + var(--sidebar-width-ratio)) !important; */
     margin-right: 280px !important;
-    margin-top: 40px!important;
+    margin-top: 40px !important;
 }
 
 .mobile .theme-entry.psf .runtime-content.with-sidebar {
@@ -1078,4 +1078,12 @@ div {
     /* align-items: center; */
     align-content: center;
     display: grid;
+}
+
+
+
+
+.theme-entry .input-control.text-input .input-control-m-c,
+.theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox {
+    border-radius: 5px !important;
 }
