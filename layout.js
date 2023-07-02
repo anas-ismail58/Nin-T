@@ -40,8 +40,12 @@ renderSidebar = () => {
     const topHeader = $("<div id='header-Wrapper' class='headers-container'></div>");
     const sidebar = $("<div id='sidebar' class='sidebar'></div>");
     $('.runtime-content').append(topHeader);
-    let headers = $('.top-header');
-    topHeader.append(headers);
+    // let headers = $('.top-header');
+    // topHeader.append(headers);
+    let headers = document.querySelector('.top-header');
+    let headerWrapper = document.getElementById('header-Wrapper');
+    headerWrapper.append(headers);
+
     $('.runtime-content').append(sidebar);
     $('.runtime-content').addClass('with-sidebar');
     if (!isMobile()) {
