@@ -10,7 +10,12 @@
 html,
 body {
     direction: rtl !important;
-    font-family: "swcc"!important;
+    font-family: "swcc" !important;
+}
+
+span,
+div {
+    font-family: "swcc" !important;
 }
 
 .mobile .theme-entry.psf .header.fixed {
@@ -169,7 +174,7 @@ body {
 .theme-entry.psf .runtime-content.with-sidebar {
     justify-content: start;
     /* margin-right: calc(var(--sidebar-width) + var(--sidebar-padding) + var(--sidebar-width-ratio)) !important; */
-    margin-right: 280px!important;
+    margin-right: 280px !important;
 }
 
 .mobile .theme-entry.psf .runtime-content.with-sidebar {
