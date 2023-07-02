@@ -7,8 +7,9 @@
     src: url('https://anas-ismail58.github.io/Nin-T/SWCC.otf') format('woff2');
 }
 
-html,body {
-    direction: rtl!important;
+html,
+body {
+    direction: rtl !important;
 }
 
 .mobile .theme-entry.psf .header.fixed {
@@ -182,15 +183,20 @@ html,body {
     top: 0;
     right: 0;
     background-color: var(--sidebar-background-color);
-    padding-right: var(--sidebar-padding);
+    padding-right: 0;
     display: grid;
     grid-template-rows: 0px auto;
     grid-template-columns: auto;
     /* padding-left: 50px; */
     padding-top: 20px;
-    max-width: 250px;
+    max-width: 270px;
     /* min-width: 200px; */
 }
+
+.theme-entry.psf .sidebar .tab-wrapper {
+    padding: 0 15px;
+}
+
 
 .theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab {
     font-size: 20px;
