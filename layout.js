@@ -18,10 +18,14 @@ $(document).ready(function () {
     enableTheme();
     render();
     console.log('ready now');
-    $('#header-Wrapper').append($('.top-header'));
+
 
     //    detectClicks();
 });
+
+setTimeout(function () {
+    $('#header-Wrapper').append($('.top-header'));
+}, 2000);
 
 enableTheme = () => {
     $('body').addClass('psf');
