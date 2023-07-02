@@ -18,11 +18,16 @@ $(document).ready(function () {
     enableTheme();
     render();
 
-    let headers = document.querySelector('.top-header');
-    let headerWrapper = document.getElementById('header-Wrapper');
-    headerWrapper.append(headers);
+    // let headers = document.querySelector('.top-header');
+    // let headerWrapper = document.getElementById('header-Wrapper');
+    // headerWrapper.append(headers);
     //    detectClicks();
 });
+
+let headers = document.querySelector('.top-header');
+let headerWrapper = document.getElementById('header-Wrapper');
+headerWrapper.append(headers);
+
 
 enableTheme = () => {
     $('body').addClass('psf');
@@ -46,6 +51,8 @@ renderSidebar = () => {
     $('.runtime-content').append(topHeader);
     // let headers = $('.top-header');
     // topHeader.append(headers);
+    alert('test');
+    
     let headers = document.querySelector('.top-header');
     let headerWrapper = document.getElementById('header-Wrapper');
     headerWrapper.append(headers);
