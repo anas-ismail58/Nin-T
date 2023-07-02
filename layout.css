@@ -7,12 +7,15 @@
     src: url('https://anas-ismail58.github.io/Nin-T/SWCC.otf') format('woff2');
 }
 
-
+html,body {
+    direction: rtl!important;
+}
 
 .mobile .theme-entry.psf .header.fixed {
     position: fixed;
     top: 0;
-    left: 0;
+    /* left: 0; */
+    right: 0;
     width: 100%;
     z-index: 1000;
     background-color: var(--form-background-color);
@@ -177,9 +180,9 @@
     position: fixed;
     height: calc(100% - 20px);
     top: 0;
-    left: 0;
+    right: 0;
     background-color: var(--sidebar-background-color);
-    padding-left: var(--sidebar-padding);
+    padding-right: var(--sidebar-padding);
     display: grid;
     grid-template-rows: 150px auto;
     grid-template-columns: auto;
