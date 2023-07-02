@@ -227,6 +227,7 @@ div {
     justify-content: start;
     /* margin-right: calc(var(--sidebar-width) + var(--sidebar-padding) + var(--sidebar-width-ratio)) !important; */
     margin-right: 280px !important;
+    margin-top: 40px!important;
 }
 
 .mobile .theme-entry.psf .runtime-content.with-sidebar {
@@ -239,7 +240,7 @@ div {
     box-shadow: 10px 10px 15px 0px var(--sidebar-shadow-color);
     position: fixed;
     height: calc(100% - 20px);
-    top: 0;
+    top: 70px;
     right: 0;
     background-color: var(--sidebar-background-color);
     padding-right: 0;
