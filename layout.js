@@ -18,16 +18,9 @@ $(document).ready(function () {
     enableTheme();
     render();
 
-    // let headers = document.querySelector('.top-header');
-    // let headerWrapper = document.getElementById('header-Wrapper');
-    // headerWrapper.append(headers);
+
     //    detectClicks();
 });
-
-let headers = document.querySelector('.top-header');
-let headerWrapper = document.getElementById('header-Wrapper');
-headerWrapper.append(headers);
-
 
 enableTheme = () => {
     $('body').addClass('psf');
@@ -43,19 +36,23 @@ render = () => {
     renderSearchBox();
 }
 
+let headers = document.querySelector('.top-header');
+let headerWrapper = document.getElementById('header-Wrapper');
+headerWrapper.append(headers);
+
+
 renderNavigation = () => isMobile() ? renderDrawer() : renderSidebar();
 
 renderSidebar = () => {
     const topHeader = $("<div id='header-Wrapper' class='headers-container'></div>");
     const sidebar = $("<div id='sidebar' class='sidebar'></div>");
     $('.runtime-content').append(topHeader);
-    // let headers = $('.top-header');
-    // topHeader.append(headers);
-    alert('test');
-    
+
+
     let headers = document.querySelector('.top-header');
     let headerWrapper = document.getElementById('header-Wrapper');
     headerWrapper.append(headers);
+
 
     $('.runtime-content').append(sidebar);
     $('.runtime-content').addClass('with-sidebar');
