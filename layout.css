@@ -201,7 +201,7 @@ body {
 
 
 .theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab {
-    font-size: 20px;
+    font-size: 16px;
     color: var(--page-background-color);
     border: none;
     padding-top: 20px;
@@ -237,15 +237,15 @@ body {
 }
 
 .theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab.selected {
-    color: var(--sidebar-background-color);
-    background-color: var(--page-background-color);
-    border: 1px var(--page-background-color) solid;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .15);
+    /* border: 1px var(--page-background-color) solid; */
 }
 
 .mobile .theme-entry.psf ul.tab-box-tabs>li>a.tab.selected {
     color: var(--sidebar-background-color);
     background-color: var(--page-background-color);
-    border-bottom: 2px var(--input-button-text-color) solid;
+    /* border-bottom: 2px var(--input-button-text-color) solid; */
 }
 
 .mobile .theme-entry.psf ul.tab-box-tabs {
