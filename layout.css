@@ -1276,6 +1276,7 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 .theme-entry .row.service-tab span.SourceCode-Forms-Controls-Web-DataLabel {
     white-space: normal !important;
     display: block;
+    text-align: right!important;
 }
 
 .theme-entry .row.service-tab {
