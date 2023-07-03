@@ -18,13 +18,12 @@ $(document).ready(function () {
     enableTheme();
     render();
     console.log('ready now');
-
-
     //    detectClicks();
 });
 
 setTimeout(function () {
-    $('#header-Wrapper').append($('.top-header'));
+    // $('.top-header').
+    // $('#header-Wrapper').append($('.top-header'));
 }, 500);
 
 enableTheme = () => {
