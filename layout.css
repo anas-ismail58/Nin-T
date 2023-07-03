@@ -8,15 +8,16 @@
 }
 
 html,
-body {
-    direction: rtl !important;
-    font-family: "swcc" !important;
-}
-
+body,
 span,
 div {
     font-family: "swcc" !important;
 }
+
+html.rtl-lang {
+    direction: rtl !important;
+}
+
 
 .mobile .theme-entry.psf .header.fixed {
     position: fixed;
@@ -1278,7 +1279,7 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 .theme-entry .row.service-tab span.SourceCode-Forms-Controls-Web-DataLabel {
     white-space: normal !important;
     display: block;
-    text-align: right!important;
+    text-align: right !important;
 }
 
 .theme-entry .row.service-tab {

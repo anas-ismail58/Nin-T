@@ -6,6 +6,7 @@ const SEARCH_BAR_CONTROL_NAME = "Auto-Complete";
 
 const MOBILE_HEADER_HEIGHT = 100;
 
+
 detectClicks = () => {
     $(document).click(function (event) {
         console.log(event.target)
@@ -21,11 +22,13 @@ $(document).ready(function () {
     //    detectClicks();
 });
 
+$("html").addClass("rtl-lang");
+
 setTimeout(function () {
     $(".top-header").closest(".row").addClass('hidden-row');
     $(".service-wrapper").closest(".row").addClass('service-tab');
 
-    
+
     $('#header-Wrapper').append($('.top-header'));
     console.log('timeout');
 }, 200);
