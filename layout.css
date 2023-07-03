@@ -1081,7 +1081,7 @@ div {
 }
 
 .row.hidden-row {
-    display: none!important;
+    display: none !important;
 }
 
 
@@ -1198,7 +1198,7 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     align-items: center;
     justify-content: center;
     width: 100px;
-    font-family: 'cairo' !important;
+    font-family: 'swcc' !important;
 }
 
 .theme-entry .input-control.watermark a.input-control span {
@@ -1255,4 +1255,15 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 .theme-entry .form .view .innerpanel>.panel {
     background-color: transparent;
     border-radius: 0;
+}
+
+.theme-entry .input-control.select-box .input-control-m .input-control-wrapper,
+.theme-entry .input-control.select-box .input-control-m,
+.theme-entry .input-control.select-box .styling-outer-wrapper {
+    height: 40px !important;
+    width: 100%;
+}
+
+.theme-entry .input-control.select-box .styling-outer-wrapper {
+    display: block;
 }
