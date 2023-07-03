@@ -22,8 +22,8 @@ $(document).ready(function () {
 });
 
 setTimeout(function () {
-    // $('.top-header').
-    // $('#header-Wrapper').append($('.top-header'));
+    $(".top-header").closest(".row").addClass('hidden-row');
+    $('#header-Wrapper').append($('.top-header'));
 }, 500);
 
 enableTheme = () => {

@@ -1080,7 +1080,9 @@ div {
     display: grid;
 }
 
-
+.row.hidden-row {
+    display: none!important;
+}
 
 
 .theme-entry .input-control.text-input .input-control-m-c,
