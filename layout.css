@@ -1108,6 +1108,7 @@ div {
     padding: 15px;
     background-color: rgb(0, 102, 204, 70%);
     /* background-color: #0066CC; */
+    text-align: right;
 
 }
 
@@ -1133,6 +1134,7 @@ div {
     border-bottom: 1px solid rgba(255, 255, 255, .2);
     display: block;
     padding: 10px 0px;
+    text-align: right;
 
 }
 
