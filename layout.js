@@ -24,7 +24,7 @@ $(document).ready(function () {
 setTimeout(function () {
     $(".top-header").closest(".row").addClass('hidden-row');
     $('#header-Wrapper').append($('.top-header'));
-}, 500);
+}, 1000);
 
 enableTheme = () => {
     $('body').addClass('psf');
