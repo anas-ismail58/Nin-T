@@ -1159,7 +1159,7 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 
 .theme-entry .editor-cell {
     padding: 20px;
-    background: #fff;
+    /* background: #fff; */
     border-radius: 5px;
     /* box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .2); */
 }
@@ -1205,4 +1205,47 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     display: flex;
     align-items: center;
     padding: 0 6px;
+}
+
+.SourceCode-Forms-Controls-Web-Table.Grid-Layout {
+    gap: 10px;
+    border-radius: 0;
+}
+
+.theme-entry .file-wrapper {
+    background-color: var(--file-upload-empty-hover-background-color);
+    border-radius: 5px !important;
+}
+
+.file-table {
+    height: 40px !important;
+    border-radius: 5px !important;
+}
+
+.theme-entry .root-table.Grid-Layout>.editor-cell,
+.theme-entry .root-table.editor-grid>.editor-cell {
+    padding-top: 0
+}
+
+/* .theme-entry .root-table.Grid-Layout>.editor-cell.lastcellinrow, .theme-entry .root-table.editor-grid>.editor-cell.lastcellinrow,
+.theme-entry .root-table.Grid-Layout>.editor-cell[row='1'], .theme-entry .root-table.editor-grid>.editor-cell[row='1'],
+.theme-entry .root-table.Grid-Layout>.editor-cell.lastrow, .theme-entry .root-table.editor-grid>.editor-cell.lastrow,
+.theme-entry .root-table.Grid-Layout>.editor-cell[col='1'], .theme-entry .root-table.editor-grid>.editor-cell[col='1']{
+    padding:0;
+} */
+
+.theme-entry .file-wrapper.borderless label {
+    height: inherit !important;
+}
+
+.SourceCode-Forms-Controls-Web-Table.Grid-Layout {
+    gap: 10px;
+    border-radius: 0;
+}
+
+.runtime-form.theme-entry .row .view {
+    background-color: #fff !important;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .2);
+    margin-bottom: 20px;
 }
