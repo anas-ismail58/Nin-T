@@ -1285,3 +1285,112 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 .theme-entry .row.service-tab {
     width: 100%;
 }
+
+/* timeline */
+
+.timeline {
+    width: 30%;
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.timeline-wrapper__title,
+.timeline-wrapper__title h4 {
+    position: relative;
+}
+
+.timeline-wrapper__title h4 {
+    padding: 0 8px;
+}
+
+.timeline-wrapper__title:before {
+    position: absolute;
+    content: "";
+    background-color: rgb(0, 102, 204, 90%);
+    height: 20px;
+    width: 7px;
+    right: -4px;
+    top: 3px;
+    border-radius: 10px;
+}
+
+.timeline-wrapper__content {
+    padding: 5px 8px;
+    border-bottom: 1px solid #E8ECF6;
+    position: relative;
+
+}
+
+.timeline-wrapper__content:before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 100%;
+    background-color: #0066CC;
+    right: -3px;
+    top: 12px;
+    border-radius: 50%;
+}
+
+.timeline-wrapper__content:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+.timeline-wrapper__content:last-child::before {
+    top: 5px;
+}
+
+.timeline-wrapper__content__list__item__date {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    position: relative;
+}
+
+.timeline-wrapper__content:nth-child(1) .dates:before {
+    position: absolute;
+    content: "";
+    width: 11px;
+    height: 11px;
+    background-color: #0066CC;
+    right: -17px;
+    top: 5px;
+    border-radius: 50%;
+}
+
+.timeline-wrapper__content .dates:before {
+    position: absolute;
+    content: "";
+    width: 11px;
+    height: 11px;
+    background-color: #fff;
+    border: 1px solid #0066CC;
+    right: -17px;
+    top: 5px;
+    border-radius: 50%;
+}
+
+
+.timeline-wrapper__content__list__item__date .dates {
+    color: #0066CC;
+    font-size: 14px;
+}
+
+.timeline-wrapper__content__list__item__date .status {
+    color: #172B4D;
+    font-size: 13px;
+}
+
+.timeline-wrapper__content__list__item__desc span {
+    color: #666362;
+    font-size: 13px;
+}
+
+.timeline-wrapper__content__list__item__by {
+    color: #0F233B;
+    font-size: 13px;
+}
+
+/* timeline */
