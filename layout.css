@@ -1267,3 +1267,7 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 .theme-entry .input-control.select-box .styling-outer-wrapper {
     display: block;
 }
+
+.theme-entry .input-control.select-box input[type=text] {
+    padding-right: var(--control-inset-horizontal-spacing);
+}
