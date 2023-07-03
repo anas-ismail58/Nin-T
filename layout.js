@@ -23,6 +23,9 @@ $(document).ready(function () {
 
 setTimeout(function () {
     $(".top-header").closest(".row").addClass('hidden-row');
+    $(".service-wrapper").closest(".row").addClass('service-tab');
+
+    
     $('#header-Wrapper').append($('.top-header'));
     console.log('timeout');
 }, 200);
