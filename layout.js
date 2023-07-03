@@ -25,7 +25,7 @@ $(document).ready(function () {
 
 setTimeout(function () {
     $('#header-Wrapper').append($('.top-header'));
-}, 200);
+}, 500);
 
 enableTheme = () => {
     $('body').addClass('psf');
