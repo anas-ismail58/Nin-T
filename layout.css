@@ -1271,3 +1271,13 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 .theme-entry .input-control.select-box input[type=text] {
     padding-right: var(--control-inset-horizontal-spacing);
 }
+
+
+.theme-entry .row.service-tab span.SourceCode-Forms-Controls-Web-DataLabel {
+    white-space: normal !important;
+    display: block;
+}
+
+.theme-entry .row.service-tab {
+    width: 100%;
+}
