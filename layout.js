@@ -17,13 +17,14 @@ isMobile = () => $('html').hasClass("mobile");
 $(document).ready(function () {
     enableTheme();
     render();
-    console.log('ready now');
+    // console.log('ready now');
     //    detectClicks();
 });
 
 setTimeout(function () {
     $(".top-header").closest(".row").addClass('hidden-row');
     $('#header-Wrapper').append($('.top-header'));
+    console.log('timeout');
 }, 1000);
 
 enableTheme = () => {
