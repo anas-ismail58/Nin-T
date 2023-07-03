@@ -25,7 +25,7 @@ setTimeout(function () {
     $(".top-header").closest(".row").addClass('hidden-row');
     $('#header-Wrapper').append($('.top-header'));
     console.log('timeout');
-}, 1000);
+}, 200);
 
 enableTheme = () => {
     $('body').addClass('psf');
