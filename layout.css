@@ -227,7 +227,7 @@ div {
     justify-content: start;
     /* margin-right: calc(var(--sidebar-width) + var(--sidebar-padding) + var(--sidebar-width-ratio)) !important; */
     margin-right: 280px !important;
-    margin-top: 40px !important;
+    margin-top: 65px !important;
 }
 
 .mobile .theme-entry.psf .runtime-content.with-sidebar {
