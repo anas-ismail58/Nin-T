@@ -1553,6 +1553,8 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     right: 0 !important;
 }
 
-.theme-entry.psf input.SFC.SourceCode-Forms-Controls-Web-TextBox.SFE {
+.theme-entry.psf input.SFC.SourceCode-Forms-Controls-Web-TextBox.SFE,
+.theme-entry .input-control.select-box,
+.theme-entry .input-control.text-input{
     margin-bottom:20px;
 }
