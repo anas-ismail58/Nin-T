@@ -1624,3 +1624,76 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     width: 60% !important;
     left: 14% !important;
 }
+
+
+/* popup */
+
+.popup-body-content div {
+    overflow: unset !important;
+    height: auto
+}
+
+.theme-entry .grid.with-footer.full .grid-footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -50px;
+    overflow: hidden;
+}
+
+.theme-entry .grid .grid-footer .toolbars a.toolbar-button {
+    background: #EEF4FA;
+    border-radius: 5px;
+    display: flex;
+    aalign-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.theme-entry .grid .grid-footer .toolbars a.toolbar-button .button-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: inherit;
+    height: 100%;
+
+}
+
+.grid .grid-paging-control .text-input.input-control input,
+.theme-entry .grid .grid-footer .toolbars a.toolbar-button {
+    padding: 0;
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.theme-entry .grid .grid-footer .toolbar .toolbar-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-footer {
+    border: 0 !important;
+    height: 7.2rem !important;
+}
+
+.popup-footer-c {
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.popup-footer-c .SourceCode-Forms-Controls-Web-Button:nth-child(3) {
+    background: transparent;
+    border: 1px solid #9CC0CD;
+    border-radius: 5px;
+    height: 40px;
+    color: #222;
+    margin-top: 10px !important;
+    display: flex;
+    min-width: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    font-family: 'swcc' !important;
+}
