@@ -931,15 +931,15 @@ html.rtl-lang {
     display: none;
 }
 
-.theme-entry.psf div.grid-footer div.toolbar-wrapper {
+/* .theme-entry.psf div.grid-footer div.toolbar-wrapper {
     display: inline-grid;
     grid-template-columns: 10px 10px 0px 10px 10px 0px;
     grid-template-rows: auto;
     position: unset;
     width: 100%;
-}
+} */
 
-.theme-entry.psf div.grid-footer div.toolbar-wrapper>a.toolbar-button {
+/* .theme-entry.psf div.grid-footer div.toolbar-wrapper>a.toolbar-button {
     border: blue 3px solid !important;
     background-color: red;
     position: unset !important;
@@ -957,9 +957,9 @@ html.rtl-lang {
 .theme-entry.psf div.grid-footer div.toolbar-wrapper>a.toolbar-button.paging-left {
     grid-column: 2;
     grid-row: 1;
-}
+} */
 
-.theme-entry.psf div.grid-footer div.toolbar-wrapper>div.toolbar-divider {
+/* .theme-entry.psf div.grid-footer div.toolbar-wrapper>div.toolbar-divider {
     grid-column: 6;
     grid-row: 1;
 }
@@ -967,9 +967,9 @@ html.rtl-lang {
 .theme-entry.psf div.grid-footer div.toolbar-wrapper>div.grid-paging-control {
     grid-column: 3;
     grid-row: 1;
-}
+} */
 
-.theme-entry.psf div.grid-footer div.toolbar-wrapper>a.toolbar-button.paging-right {
+/* .theme-entry.psf div.grid-footer div.toolbar-wrapper>a.toolbar-button.paging-right {
     grid-column: 4;
     grid-row: 1;
 }
@@ -977,8 +977,12 @@ html.rtl-lang {
 .theme-entry.psf div.grid-footer div.toolbar-wrapper>a.toolbar-button.paging-last {
     grid-column: 5;
     grid-row: 1;
-}
+} */
 
+
+.theme-entry .grid .grid-footer .toolbar .toolbar-wrapper {
+    left: auto!important;
+}
 
 /*
 .theme-entry.psf .grid-body table.grid-content-table {
