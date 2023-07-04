@@ -1566,7 +1566,25 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 }
 
 .row.title-page__container {
-    padding: 20px;
+    padding: 20px 15px;
     margin-bottom: 20px;
     background: #fff;
+}
+
+.row.title-page__container span.SourceCode-Forms-Controls-Web-Label {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    padding: 0 10px;
+}
+
+.row.title-page__container span.SourceCode-Forms-Controls-Web-Label:before {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 25px;
+    background: #44494E;
+    right: 0;
+    top: 5px;
+    border-radius: 10px;
 }
