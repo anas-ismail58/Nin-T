@@ -1618,3 +1618,9 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     top: 5px;
     border-radius: 10px;
 }
+
+.theme-entry .dialog#PickerSearchDialog {
+    min-height: 600px !important;
+    width: 60% !important;
+    left: 14% !important;
+}
