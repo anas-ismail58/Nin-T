@@ -7,6 +7,72 @@
     src: url('https://anas-ismail58.github.io/Nin-T/SWCC.otf') format('woff2');
 }
 
+
+@font-face {
+    font-family: 'sw-font';
+    src: url('sw-fonts/sw-font.eot');
+    src: url('sw-fonts/sw-font.eot') format('embedded-opentype'),
+        url('sw-fonts/sw-font.ttf') format('truetype'),
+        url('sw-fonts/sw-font.woff') format('woff'),
+        url('sw-fonts/sw-font.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-sw-"],
+[class*=" icon-sw-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'sw-font' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sw-dots:before {
+    content: "\e900";
+}
+
+.icon-sw-arrow:before {
+    content: "\e901";
+}
+
+.icon-sw-computing:before {
+    content: "\e902";
+}
+
+.icon-sw-law:before {
+    content: "\e903";
+}
+
+.icon-sw-logistics:before {
+    content: "\e904";
+}
+
+.icon-sw-Color:before {
+    content: "\e905";
+}
+
+.icon-sw-request:before {
+    content: "\e906";
+}
+
+.icon-sw-setting:before {
+    content: "\e907";
+}
+
+.icon-sw-tasks:before {
+    content: "\e908";
+}
+
+
 html,
 body,
 span,
@@ -297,7 +363,7 @@ html.rtl-lang {
 
 .theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab.selected {
     color: #fff;
-    background-color: rgba(0, 0, 0, .15);
+    background-color: #0066CC;
     /* border: 1px var(--page-background-color) solid; */
 }
 
