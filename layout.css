@@ -980,8 +980,26 @@ html.rtl-lang {
 } */
 
 
-.theme-entry .grid .grid-footer .toolbar .toolbar-wrapper {
-    left: auto!important;
+.rtl-lang .theme-entry .grid .grid-footer .toolbar .toolbar-wrapper {
+    right: auto !important;
+}
+
+.popup-body .toolbars {
+    direction: ltr;
+}
+
+.theme-entry .grid-footer .grid-paging-control .text-input.input-control .input-control-wrapper,
+.theme-entry .grid-footer .grid-paging-control .text-input.input-control .input-control-wrapper input {
+    text-align: center !important
+}
+
+.theme-entry.psf .popup-body .input-control.text-input:not(.control-group-container) .input-control-m-c {
+    background: #EEF4FA !important;
+    border: 0 !important;
+}
+
+.popup-body .input-control.text-input {
+    margin-bottom: 0 !important;
 }
 
 /*
