@@ -1645,7 +1645,7 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     background: #EEF4FA;
     border-radius: 5px;
     display: flex;
-    aalign-items: center;
+    align-items: center;
     justify-content: center;
     margin: 0 5px;
 }
