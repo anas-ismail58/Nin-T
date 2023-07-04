@@ -462,12 +462,12 @@ html.rtl-lang {
 }
 
 .theme-entry.psf div.sidebar ul.tab-box-tabs>li span.tab-wrapper:before {
-    font-family: 'Material Icons';
+    /* font-family: 'Material Icons'; */
     font-weight: normal;
     font-style: normal;
-    font-size: 24px;
-    padding-right: 10px;
-    margin-left: -5px;
+    /* font-size: 24px; */
+    /* padding-right: 10px; */
+    /* margin-left: -5px; */
 }
 
 .theme-entry.psf div.sidebar ul.tab-box-tabs>li span.tab-wrapper[title="Overview"]:before {
@@ -1476,40 +1476,40 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     position: absolute;
     content: "\e908";
     font-family: 'sw-font' !important;
-    right: -5px;
-    font-size: 12px;
+    right: 10px;
+    font-size: 19px;
 }
 
 .tab-box-tabs li:nth-child(2) a .tab-wrapper:before {
     position: absolute;
     content: "\e906";
     font-family: 'sw-font' !important;
-    right: -5px;
-    font-size: 12px;
+    right: 10px;
+    font-size: 19px;
 }
 
 .tab-box-tabs li:nth-child(3) a .tab-wrapper:before {
     position: absolute;
     content: "\e906";
     font-family: 'sw-font' !important;
-    right: -5px;
-    font-size: 12px;
+    right: 10px;
+    font-size: 19px;
 }
 
 .tab-box-tabs li:nth-child(4) a .tab-wrapper:before {
     position: absolute;
     content: "\e905";
     font-family: 'sw-font' !important;
-    right: -5px;
-    font-size: 12px;
+    right: 10px;
+    font-size: 19px;
 }
 
 .tab-box-tabs li:nth-child(5) a .tab-wrapper:before {
     position: absolute;
     content: "\e907";
     font-family: 'sw-font' !important;
-    right: -5px;
-    font-size: 12px;
+    right: 10px;
+    font-size: 19px;
 }
 
 
