@@ -132,10 +132,12 @@ html.rtl-lang {
 }
 
 .header-top__user__avatar {
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     overflow: hidden;
+    border: 2px solid #0066CC;
+    padding: 4px;
 }
 
 .header-top__logo__img {
@@ -149,10 +151,15 @@ html.rtl-lang {
 .header-top__user__name {
     display: flex;
     flex-direction: column;
-
+    font-weight: bold;
+    font-size: 14px;
+    color: #222222;
 }
 
-
+.header-top__user__name .position-title {
+    font-weight: normal;
+    font-size: 12px;
+}
 
 
 .mobile .theme-entry.psf .header.fixed .logo {
@@ -208,7 +215,7 @@ html.rtl-lang {
 .theme-entry.psf div.picker div.input-control-m-c,
 .theme-entry.psf div.input-control.lookup-box,
 .theme-entry.psf div.input-control.select-box {
-    height: 100% !important;
+    height: auto !important;
 }
 
 .theme-entry.psf .SFC.SourceCode-Forms-Controls-Web-TextBox.readonly,
