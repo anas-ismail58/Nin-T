@@ -24,10 +24,10 @@ $(document).ready(function () {
 
 $("html").addClass("rtl-lang");
 $('[name="TitlePage"]').closest(".row").addClass('title-page__container');
+$('[name="TitlePage1"]').closest(".row").addClass('title-page__container');
 $('[name="TitlePage2"]').closest(".row").addClass('title-page__container');
 $('[name="TitlePage3"]').closest(".row").addClass('title-page__container');
 $('[name="TitlePage4"]').closest(".row").addClass('title-page__container');
-$('[name="TitlePage5"]').closest(".row").addClass('title-page__container');
 
 
 
