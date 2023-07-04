@@ -808,6 +808,8 @@ html.rtl-lang {
     font-size: 1.5rem;
 }
 
+
+
 .mobile .theme-entry.psf .form.toolbars,
 .mobile .theme-entry.psf #pgInnerPanel.toolbars,
 .mobile .theme-entry.psf .form-tabs>.tab-box-body .toolbars,
@@ -1555,6 +1557,16 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 
 .theme-entry.psf input.SFC.SourceCode-Forms-Controls-Web-TextBox.SFE,
 .theme-entry .input-control.select-box,
-.theme-entry .input-control.text-input{
-    margin-bottom:20px;
+.theme-entry .input-control.text-input {
+    margin-bottom: 20px;
+}
+
+.theme-entry.psf .form {
+    padding: 0;
+}
+
+.row.title-page__container {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
 }
