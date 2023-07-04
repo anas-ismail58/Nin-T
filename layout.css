@@ -1464,3 +1464,55 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 .theme-entry span.SourceCode-Forms-Controls-Web-Label {
     color: #005BB6;
 }
+
+
+.tab-box-tabs li:first-child a .tab-wrapper {
+    position: relative;
+}
+
+content: "\e908";
+
+.tab-box-tabs li:first-child a .tab-wrapper:before {
+    position: absolute;
+    content: "\e908";
+    font-family: 'sw-font' !important;
+    right: -5px;
+    font-size: 12px;
+}
+
+.tab-box-tabs li:nth-child(2) a .tab-wrapper:before {
+    position: absolute;
+    content: "\e906";
+    font-family: 'sw-font' !important;
+    right: -5px;
+    font-size: 12px;
+}
+
+.tab-box-tabs li:nth-child(3) a .tab-wrapper:before {
+    position: absolute;
+    content: "\e906";
+    font-family: 'sw-font' !important;
+    right: -5px;
+    font-size: 12px;
+}
+
+.tab-box-tabs li:nth-child(4) a .tab-wrapper:before {
+    position: absolute;
+    content: "\e905";
+    font-family: 'sw-font' !important;
+    right: -5px;
+    font-size: 12px;
+}
+
+.tab-box-tabs li:nth-child(5) a .tab-wrapper:before {
+    position: absolute;
+    content: "\e907";
+    font-family: 'sw-font' !important;
+    right: -5px;
+    font-size: 12px;
+}
+
+
+.theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab span.tab-text {
+    padding: 20px;
+}
