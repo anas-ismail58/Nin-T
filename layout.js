@@ -23,10 +23,12 @@ $(document).ready(function () {
 });
 
 $("html").addClass("rtl-lang");
+$('[name="TitlePage"]').closest(".row").addClass('title-page__container');
 
 setTimeout(function () {
     $(".top-header").closest(".row").addClass('hidden-row');
     $(".service-wrapper").closest(".row").addClass('service-tab');
+    $('[name="TitlePage"]').closest(".row").addClass('title-page__time');
 
 
     $('#header-Wrapper').append($('.top-header'));
