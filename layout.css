@@ -1308,7 +1308,7 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 }
 
 .SourceCode-Forms-Controls-Web-Table.Grid-Layout {
-    gap: 10px;
+    gap: 20px;
     border-radius: 0;
 }
 
@@ -1336,11 +1336,6 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 
 .theme-entry .file-wrapper.borderless label {
     height: inherit !important;
-}
-
-.SourceCode-Forms-Controls-Web-Table.Grid-Layout {
-    gap: 10px;
-    border-radius: 0;
 }
 
 .runtime-form.theme-entry .row .view {
@@ -1544,4 +1539,16 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 
 .theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab span.tab-text {
     padding: 0 20px;
+}
+
+.theme-entry .view>.innerpanel {
+    padding: 20px;
+}
+
+.theme-entry .root-table.Grid-Layout>.editor-cell {
+    padding: 0 !important;
+}
+
+.picker-input {
+    right: 0 !important;
 }
