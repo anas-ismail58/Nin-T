@@ -624,7 +624,7 @@ html.rtl-lang {
 .theme-entry.psf div.kpi div.card .kpi-label>span {
     background-color: transparent !important;
     font-size: var(--heading3-text-size);
-    font-color: var(--page-title-text-color);
+    /* font-color: var(--page-title-text-color); */
     font-weight: normal;
 }
 
@@ -1204,14 +1204,13 @@ html.rtl-lang {
 .service-card {
     box-shadow: 0px 0px 5px rgb(0, 0, 0, 10%);
     border-radius: 5px 5px 0 0;
-    /* padding: 15px; */
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .service-card__Title {
     padding: 30px 20px;
     background-color: #0066CC;
-    /* background-color: #0066CC; */
     text-align: right;
     box-shadow: 0 0 30px rgba(0, 0, 0, 10%);
     display: flex;
