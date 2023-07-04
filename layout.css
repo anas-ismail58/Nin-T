@@ -1460,3 +1460,7 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 }
 
 /* timeline */
+
+.theme-entry span.SourceCode-Forms-Controls-Web-Label {
+    color: #005BB6;
+}
