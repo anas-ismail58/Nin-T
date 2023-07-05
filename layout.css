@@ -1867,7 +1867,8 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
     font-size: 14px;
 }
 
-.rtl-lang .theme-entry .grid .grid-column-header-cell {
+.rtl-lang .theme-entry .grid-column-header-cell-content,
+.rtl-lang .theme-entry .grid-column-header-cell-content div {
     text-align: right !important;
 }
 
