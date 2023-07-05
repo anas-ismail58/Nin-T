@@ -1851,8 +1851,22 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
     display: block;
     line-height: initial;
     font-size: 14px;
-
 }
+
+.rtl-lang .input-control-wrapper>a>span {
+    text-indent: -9999px;
+    line-height: 0;
+    margin: 0 0 0 5px;
+}
+
+.rtl-lang .input-control-wrapper>a>span::after {
+    content: "كل النتائج";
+    text-indent: 0;
+    display: block;
+    line-height: initial;
+    font-size: 14px;
+}
+
 
 
 [name="POC_Request List"] .toolbar-wrapper div,
