@@ -33,6 +33,18 @@ $('.picker-search').click(function () {
     console.log('search clicked');
     setTimeout(function () {
         $('.popup-header-text').text('البحث');
+        $('.input-control-watermark').text('بحث');
+        $('.grid-column-header-text').text('الاسم');
+        $('.grid-content-cell-wrapper').text('لا توجد بيانات للعرض');
+
+        const container = document.querySelectorAll('.popup-footer .SourceCode-Forms-Controls-Web-Button');
+
+        if (container.textContent.includes('ok')) {
+            console.log('نعم');
+        } else {
+            console.log('إلغاء');
+        }
+
     }, 500);
 });
 
