@@ -1860,7 +1860,7 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
 }
 
 .rtl-lang .input-control-wrapper>a>span::after {
-    content: "كل النتائج";
+    content: "الكل";
     text-indent: 0;
     display: block;
     line-height: initial;
