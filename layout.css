@@ -1838,3 +1838,57 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
     display: block;
     line-height: initial;
 }
+
+
+
+[name="POC_Request List"] .toolbar-wrapper div,
+.theme-entry [name="POC_Request List"] .toolbar,
+[name="POC_Request List"] .grid-toolbars {
+    overflow: unset !important;
+    background-color: transparent !important;
+    height: 100% !important;
+    min-height: 100% !important;
+}
+
+[name="POC_Request List"] .filterContainer .input-control.select-box,
+[name="POC_Request List"] .filterContainer .input-control.text-input {
+    margin-bottom: 0;
+}
+
+[name="POC_Request List"] .filterContainer {
+    display: flex;
+}
+
+[name="POC_Request List"] .quickSearch.filter {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.theme-entry .filterContainer .input-control.dropdown-box {
+    min-width: 50%;
+}
+
+[name="POC_Request List"] .filterChosen.filter {
+    width: 30%;
+}
+
+[name="POC_Request List"] .input-control-wrapper,
+[name="POC_Request List"] .input-control-wrapper a,
+[name="POC_Request List"] .input-control-wrapper span {
+    height: 100% !important;
+    display: block;
+    overflow: unset !important;
+    text-align: right;
+    padding-right: 2px;
+    display: flex !important;
+    align-items: center;
+}
+
+[name="POC_Request List"] {
+    background-color: transparent !important;
+}
+
+[name="POC_Request List"] .filterContainer .filterTxt {
+    width: 260px;
+}
