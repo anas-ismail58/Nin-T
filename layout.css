@@ -1754,3 +1754,12 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
     font-weight: bold;
     text-transform: capitalize;
 }
+
+.theme-entry.psf .grid-body table.grid-content-table>tbody>tr>td {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.theme-entry.psf .grid-body table.grid-content-table>tbody>tr {
+    border-bottom: 1px solid #F4F4F4;
+}
