@@ -45,7 +45,7 @@ $('.picker-search').click(function () {
             console.log('إلغاء');
         }
 
-    }, 500);
+    }, 200);
 });
 
 
