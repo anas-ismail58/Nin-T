@@ -39,7 +39,7 @@ setTimeout(function () {
 
     $('#header-Wrapper').append($('.top-header'));
     console.log('timeout');
-}, 200);
+}, 500);
 
 enableTheme = () => {
     $('body').addClass('psf');
