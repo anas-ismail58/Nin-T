@@ -1839,6 +1839,20 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
     line-height: initial;
 }
 
+.rtl-lang .theme-entry .filterContainer .filterLabel {
+    text-indent: -9999px;
+    line-height: 0;
+    margin: 0 0 0 5px;
+}
+
+.rtl-lang .theme-entry .filterContainer .filterLabel::after {
+    content: "البحث بواسطة";
+    text-indent: 0;
+    display: block;
+    line-height: initial;
+    font-size: 14px;
+
+}
 
 
 [name="POC_Request List"] .toolbar-wrapper div,
