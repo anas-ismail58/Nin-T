@@ -1809,5 +1809,32 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
 
 
 .rtl-lang .input-control.select-box .input-control-watermark {
-    text-align: right!important;
+    text-align: right !important;
+}
+
+
+.rtl-lang .popupManager #PickerSearchDialog a.SFC.SourceCode-Forms-Controls-Web-Button.button {
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+.rtl-lang .popupManager #PickerSearchDialog a.SFC.SourceCode-Forms-Controls-Web-Button.button:nth-child(2)::after {
+    content: "موافق";
+    text-indent: 0;
+    display: block;
+    line-height: initial;
+}
+
+.rtl-lang .popupManager #PickerSearchDialog a.SFC.SourceCode-Forms-Controls-Web-Button.button:first-child::after {
+    content: "موافق";
+    text-indent: 0;
+    display: block;
+    line-height: initial;
+}
+
+.rtl-lang .popupManager a.SFC.SourceCode-Forms-Controls-Web-Button.button:last-child::after {
+    content: "إلفاء";
+    text-indent: 0;
+    display: block;
+    line-height: initial;
 }
