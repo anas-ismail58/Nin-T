@@ -29,7 +29,7 @@ $('[name="TitlePage2"]').closest(".row").addClass('title-page__container');
 $('[name="TitlePage3"]').closest(".row").addClass('title-page__container');
 $('[name="TitlePage4"]').closest(".row").addClass('title-page__container');
 
-
+$('.SenderName').closest(".row").addClass('table-chat');
 
 setTimeout(function () {
     $(".top-header").closest(".row").addClass('hidden-row');
