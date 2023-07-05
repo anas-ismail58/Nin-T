@@ -28,6 +28,8 @@ $('[name="TitlePage1"]').closest(".row").addClass('title-page__container');
 $('[name="TitlePage2"]').closest(".row").addClass('title-page__container');
 $('[name="TitlePage3"]').closest(".row").addClass('title-page__container');
 $('[name="TitlePage4"]').closest(".row").addClass('title-page__container');
+$('[name="POC_Request List"] .filterChosen.filter .filterLabel').text('البحث بواسطة');
+
 
 $('.picker-search').click(function () {
     console.log('search clicked');

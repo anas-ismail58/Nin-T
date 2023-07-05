@@ -1871,6 +1871,7 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
 
 [name="POC_Request List"] .filterChosen.filter {
     width: 30%;
+    display: none;
 }
 
 [name="POC_Request List"] .input-control-wrapper,
@@ -1891,4 +1892,13 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
 
 [name="POC_Request List"] .filterContainer .filterTxt {
     width: 260px;
+}
+
+.theme-entry .input-control.select-box .input-control-buttons a {
+    display: block;
+    height: 40px;
+}
+
+.configFilterImg {
+    display: none !important
 }
