@@ -30,8 +30,10 @@ $('[name="TitlePage3"]').closest(".row").addClass('title-page__container');
 $('[name="TitlePage4"]').closest(".row").addClass('title-page__container');
 
 $('.picker-search').click(function () {
+    console.log('search clicked');
     $('.popup-header-text').text('البحث');
-})
+
+});
 
 
 $('.SenderName').closest(".row").addClass('table-chat');
