@@ -1867,6 +1867,10 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
     font-size: 14px;
 }
 
+.rtl-lang .grid-column-header-cell-content {
+    text-align: right !important;
+}
+
 
 
 [name="POC_Request List"] .toolbar-wrapper div,
@@ -1929,4 +1933,29 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
 
 .configFilterImg {
     display: none !important
+}
+
+.theme-entry .grid table.grid-content-table td {
+    border: 1px solid #D5D5D5 !important;
+}
+
+.theme-entry.psf .grid-body table.grid-content-table>tbody>tr {
+    border-bottom: 1px solid #D5D5D5;
+}
+
+.theme-entry .grid table.grid-content-table tr.selected>td,
+.theme-entry .grid table.grid-content-table.zebra-stripes tr.selected:not(.action-row)>td {
+    background-color: #F4F4F4;
+}
+
+.theme-entry .grid table.grid-content-table tr:hover>td {
+    background-color: #EEF4FA;
+}
+
+.theme-entry .grid table.grid-content-table.zebra-stripes tr:nth-child(1) td {
+    border-top: 0 !important;
+}
+
+.theme-entry .grid table.grid-column-header-table tr:first-child td:first-child {
+    border-right: 0
 }
