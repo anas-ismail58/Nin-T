@@ -31,8 +31,9 @@ $('[name="TitlePage4"]').closest(".row").addClass('title-page__container');
 
 $('.picker-search').click(function () {
     console.log('search clicked');
-    $('.popup-header-text').text('البحث');
-
+    setTimeout(function () {
+        $('.popup-header-text').text('البحث');
+    }, 500);
 });
 
 
