@@ -29,7 +29,9 @@ $('[name="TitlePage2"]').closest(".row").addClass('title-page__container');
 $('[name="TitlePage3"]').closest(".row").addClass('title-page__container');
 $('[name="TitlePage4"]').closest(".row").addClass('title-page__container');
 
-$('.popup-header-text').text('البحث');
+$('.picker-search').click(function () {
+    $('.popup-header-text').text('البحث');
+})
 
 
 $('.SenderName').closest(".row").addClass('table-chat');
