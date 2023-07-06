@@ -1924,7 +1924,10 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
 
 [name="POC_Request List"] .input-control-wrapper,
 [name="POC_Request List"] .input-control-wrapper a,
-[name="POC_Request List"] .input-control-wrapper span {
+[name="POC_Request List"] .input-control-wrapper span,
+[name="Request Details Area Item17"] .input-control-wrapper,
+[name="Request Details Area Item17"] .input-control-wrapper a,
+[name="Request Details Area Item17"] .input-control-wrapper span {
     height: 100% !important;
     display: block;
     overflow: unset !important;
@@ -1934,11 +1937,13 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
     align-items: center;
 }
 
-[name="POC_Request List"] {
+[name="POC_Request List"],
+[name="Request Details Area Item17"]  {
     background-color: transparent !important;
 }
 
-[name="POC_Request List"] .filterContainer .filterTxt {
+[name="POC_Request List"] .filterContainer .filterTxt ,
+[name="Request Details Area Item17"] .filterContainer .filterTxt {
     width: 260px;
 }
 
