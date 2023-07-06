@@ -1778,7 +1778,7 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
 }
 
 [name="Chat Area Item"] .grid-body table.grid-content-table>tbody>tr:nth-child(even) td .grid-content-cell,
-[name="Chat Area Item2"] .grid-body table.grid-content-table>tbody>tr:nth-child(even) td .grid-content-cell  {
+[name="Chat Area Item2"] .grid-body table.grid-content-table>tbody>tr:nth-child(even) td .grid-content-cell {
     width: 30%;
     margin-right: 0;
 
@@ -1860,7 +1860,7 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
     font-size: 14px;
 }
 
-.rtl-lang .input-control-wrapper>a>span {
+/* .rtl-lang .input-control-wrapper>a>span {
     text-indent: -9999px;
     line-height: 0;
     margin: 0 0 0 5px;
@@ -1872,7 +1872,7 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
     display: block;
     line-height: initial;
     font-size: 14px;
-}
+} */
 
 .rtl-lang .theme-entry .grid-column-header-cell-content,
 .rtl-lang .theme-entry .grid-column-header-cell-content div {
@@ -1883,7 +1883,10 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
 
 [name="POC_Request List"] .toolbar-wrapper div,
 .theme-entry [name="POC_Request List"] .toolbar,
-[name="POC_Request List"] .grid-toolbars {
+[name="POC_Request List"] .grid-toolbars,
+[name="Request Details Area Item17"] .toolbar-wrapper div,
+.theme-entry [name="Request Details Area Item17"] .toolbar,
+[name="Request Details Area Item17"] .grid-toolbars {
     overflow: unset !important;
     background-color: transparent !important;
     height: 100% !important;
@@ -1891,15 +1894,19 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
 }
 
 [name="POC_Request List"] .filterContainer .input-control.select-box,
-[name="POC_Request List"] .filterContainer .input-control.text-input {
+[name="POC_Request List"] .filterContainer .input-control.text-input,
+[name="Request Details Area Item17"] .filterContainer .input-control.select-box,
+[name="Request Details Area Item17"] .filterContainer .input-control.text-input {
     margin-bottom: 0;
 }
 
-[name="POC_Request List"] .filterContainer {
+[name="POC_Request List"] .filterContainer,
+[name="Request Details Area Item17"] .filterContainer {
     display: flex;
 }
 
-[name="POC_Request List"] .quickSearch.filter {
+[name="POC_Request List"] .quickSearch.filter,
+[name="Request Details Area Item17"] .quickSearch.filter {
     display: flex;
     align-items: center;
     width: 70%;
@@ -1909,7 +1916,8 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
     min-width: 50%;
 }
 
-[name="POC_Request List"] .filterChosen.filter {
+[name="POC_Request List"] .filterChosen.filter,
+[name="Request Details Area Item17"] .filterChosen.filter {
     width: 30%;
     display: none;
 }
