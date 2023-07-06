@@ -1766,41 +1766,48 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
 
 /* chat */
 
-[name="Chat Area Item"] .grid-body table.grid-content-table>tbody>tr:nth-child(odd) td .grid-content-cell {
+[name="Chat Area Item"] .grid-body table.grid-content-table>tbody>tr:nth-child(odd) td .grid-content-cell,
+[name="Chat Area Item2"] .grid-body table.grid-content-table>tbody>tr:nth-child(odd) td .grid-content-cell {
     width: 30%;
 }
 
-[name="Chat Area Item"] .grid-body table.grid-content-table>tbody>tr:nth-child(even) td {
+[name="Chat Area Item"] .grid-body table.grid-content-table>tbody>tr:nth-child(even) td,
+[name="Chat Area Item2"] .grid-body table.grid-content-table>tbody>tr:nth-child(even) td {
     display: flex;
     justify-content: flex-end;
 }
 
-[name="Chat Area Item"] .grid-body table.grid-content-table>tbody>tr:nth-child(even) td .grid-content-cell {
+[name="Chat Area Item"] .grid-body table.grid-content-table>tbody>tr:nth-child(even) td .grid-content-cell,
+[name="Chat Area Item2"] .grid-body table.grid-content-table>tbody>tr:nth-child(even) td .grid-content-cell  {
     width: 30%;
     margin-right: 0;
 
 }
 
-[name="Chat Area Item"] .grid-body table.grid-content-table>tbody>tr:nth-child(even) td .MessageContent {
+[name="Chat Area Item"] .grid-body table.grid-content-table>tbody>tr:nth-child(even) td .MessageContent,
+[name="Chat Area Item2"] .grid-body table.grid-content-table>tbody>tr:nth-child(even) td .MessageContent {
     background: #EEF4FA;
     padding: 10px;
     border-radius: 20px;
 }
 
-[name="Chat Area Item"] .grid-body table.grid-content-table>tbody>tr td .SenderName {
+[name="Chat Area Item"] .grid-body table.grid-content-table>tbody>tr td .SenderName,
+[name="Chat Area Item2"] .grid-body table.grid-content-table>tbody>tr td .SenderName {
     font-size: 14px;
     font-weight: bold;
     color: #005BB6;
 }
 
-[name="Chat Area Item"] .grid-body table.grid-content-table>tbody>tr:nth-child(odd) td .SenderName {
+[name="Chat Area Item"] .grid-body table.grid-content-table>tbody>tr:nth-child(odd) td .SenderName,
+[name="Chat Area Item2"] .grid-body table.grid-content-table>tbody>tr:nth-child(odd) td .SenderName {
     font-size: 14px;
     font-weight: bold;
     color: #7E84A3;
 }
 
 
-[name="Chat Area Item"] .grid-body table.grid-content-table>tbody>tr:nth-child(odd) td .MessageContent {
+[name="Chat Area Item"] .grid-body table.grid-content-table>tbody>tr:nth-child(odd) td .MessageContent,
+[name="Chat Area Item2"] .grid-body table.grid-content-table>tbody>tr:nth-child(odd) td .MessageContent {
     background: rgba(126, 132, 163, 37%);
     padding: 10px;
     border-radius: 20px;

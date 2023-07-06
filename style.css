@@ -751,7 +751,7 @@ ul.sub-list__Catog {
 }
 
 .theme-entry .file-wrapper.uploaded td.file-tn-cell {
-    width: 130px!important;
+    width: 130px !important;
     height: 130px;
     display: flex;
     align-items: center;
@@ -773,5 +773,7 @@ ul.sub-list__Catog {
 }
 
 /* file upload */
+
+
 
 
