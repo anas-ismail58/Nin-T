@@ -1436,7 +1436,7 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 }
 
 .timeline-wrapper__content {
-    padding: 5px 8px;
+    padding: 5px 14px;
     border-bottom: 1px solid #E8ECF6;
     position: relative;
 
@@ -1448,7 +1448,7 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     width: 1px;
     height: 100%;
     background-color: #0066CC;
-    right: 9px;
+    right: 6px;
     top: -1px;
     border-radius: 50%;
 }
@@ -1459,7 +1459,7 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 }
 
 .timeline-wrapper__content:last-child::before {
-    top: 5px;
+    top: 10px;
 }
 
 .timeline-wrapper__content__list,
@@ -1489,7 +1489,7 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     width: 11px;
     height: 11px;
     background-color: #0066CC;
-    right: -17px;
+    right: -14px;
     top: 5px;
     border-radius: 50%;
 }
