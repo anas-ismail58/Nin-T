@@ -39,7 +39,7 @@ $('.picker-search').click(function () {
         $('.popup-header-text').text('البحث');
         $('.input-control-watermark').text('بحث');
         $('.grid-column-header-text').text('الاسم');
-        $('.grid-content-cell-wrapper').text('لا توجد بيانات للعرض');
+        // $('.grid-content-cell-wrapper').text('لا توجد بيانات للعرض');
 
         const container = document.querySelectorAll('.popup-footer .SourceCode-Forms-Controls-Web-Button');
 
