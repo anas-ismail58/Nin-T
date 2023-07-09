@@ -1462,6 +1462,10 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     top: 5px;
 }
 
+.timeline-wrapper__content__list {
+    white-space: normal!important;
+}
+
 .timeline-wrapper__content__list__item__date {
     display: flex;
     justify-content: space-between;
@@ -1901,7 +1905,7 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
 [name="Request Details Area Item17"] .filterContainer .input-control.select-box,
 [name="Request Details Area Item17"] .filterContainer .input-control.text-input,
 [name="Request Details Area Item16"] .filterContainer .input-control.select-box,
-[name="Request Details Area Item16"] .filterContainer .input-control.text-input  {
+[name="Request Details Area Item16"] .filterContainer .input-control.text-input {
     margin-bottom: 0;
 }
 
@@ -1950,11 +1954,11 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
 
 [name="POC_Request List"],
 [name="Request Details Area Item17"],
-[name="Request Details Area Item16"]  {
+[name="Request Details Area Item16"] {
     background-color: transparent !important;
 }
 
-[name="POC_Request List"] .filterContainer .filterTxt ,
+[name="POC_Request List"] .filterContainer .filterTxt,
 [name="Request Details Area Item17"] .filterContainer .filterTxt,
 [name="Request Details Area Item16"] .filterContainer .filterTxt {
     width: 260px;
