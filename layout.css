@@ -1716,6 +1716,14 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     padding-right: 1rem;
 }
 
+.theme-entry.psf [name="Main Page Area Item12"] .grid-body table.grid-content-table>tbody>tr,
+.theme-entry [name="Main Page Area Item12"] table.grid-content-table td {
+    border: 0 !important;
+}
+
+.theme-entry.runtime-form [name="Main Page Area Item12"] span.runtime-list-item-wrap {
+    padding: 0;
+}
 
 /*  */
 
