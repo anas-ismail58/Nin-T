@@ -31,7 +31,11 @@ $('[name="TitlePage4"]').closest(".row").addClass('title-page__container');
 $('[name="Request Details Area Item17"] .filterChosen.filter .filterLabel').text('البحث بواسطة');
 $('[name="Request Details Area Item16"] .filterChosen.filter .filterLabel').text('البحث بواسطة');
 
+var timelineContent = document.querySelectorAll('.timeline-wrapper__content');
 
+for (let i = 0; i < timelineContent.length; i++) {
+    $('[name="Main Page Area Item12"]').append(timelineContent[i]);
+}
 
 $('.picker-search').click(function () {
     console.log('search clicked');
@@ -110,6 +114,8 @@ renderSidebar = () => {
     }
 
 }
+
+
 
 renderKPIs = () => {
     $('div[name="' + KPI_VIEW_AREA_ITEM_NAME + '"]').closest('.view').addClass('kpi')
