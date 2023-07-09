@@ -95,7 +95,7 @@ renderSidebar = () => {
     const topHeader = $("<div id='header-Wrapper' class='headers-container'></div>");
     const sidebar = $("<div id='sidebar' class='sidebar'></div>");
     $('.runtime-content').append(topHeader);
-
+    $('[name="Main Page Area Item12"]').closest('.row').addClass('timelineWrapper');
 
     // let headers = document.querySelector('.top-header');
     // let headerWrapper = document.getElementById('header-Wrapper');
