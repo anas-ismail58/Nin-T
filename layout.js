@@ -68,6 +68,7 @@ setTimeout(function () {
 
     for (let i = 0; i < timelineContent.length; i++) {
         $('[name="Main Page Area Item12"]').append(timelineContent[i]);
+        timelineContent[0].classList.add('firsit-timeline');
     }
 }, 500);
 

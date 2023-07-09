@@ -1436,7 +1436,7 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 }
 
 .timeline-wrapper__content {
-    padding: 5px 14px;
+    margin: 5px 14px;
     border-bottom: 1px solid #E8ECF6;
     position: relative;
 
@@ -1448,10 +1448,11 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     width: 1px;
     height: 100%;
     background-color: #0066CC;
-    right: 6px;
-    top: -1px;
+    right: -10.3px;
+    top: 10px;
     border-radius: 50%;
 }
+
 
 .timeline-wrapper__content:last-child {
     border-bottom: 0;
@@ -1716,6 +1717,10 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     padding-right: 1rem;
 }
 
+[name="Main Page Area Item12"] {
+    background: transparent;
+}
+
 .theme-entry.psf [name="Main Page Area Item12"] .grid-body table.grid-content-table>tbody>tr,
 .theme-entry [name="Main Page Area Item12"] table.grid-content-table td,
 .theme-entry [name="Main Page Area Item12"] .grid table.grid-content-table td {
@@ -1734,7 +1739,7 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 .theme-entry.psf [name="Main Page Area Item12"] .grid-body {
     /* height: 400px;
     overflow-y: auto; */
-    display: none!important;
+    display: none !important;
 }
 
 .theme-entry.psf [name="Main Page Area Item12"] .grid-body::-webkit-scrollbar {
