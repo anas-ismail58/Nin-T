@@ -30,6 +30,7 @@ $('[name="TitlePage3"]').closest(".row").addClass('title-page__container');
 $('[name="TitlePage4"]').closest(".row").addClass('title-page__container');
 $('[name="Request Details Area Item17"] .filterChosen.filter .filterLabel').text('البحث بواسطة');
 $('[name="Request Details Area Item16"] .filterChosen.filter .filterLabel').text('البحث بواسطة');
+$('[name="Main Page Area Item12"]').closest('.row').addClass('timelineWrapper');
 
 
 
@@ -95,7 +96,6 @@ renderSidebar = () => {
     const topHeader = $("<div id='header-Wrapper' class='headers-container'></div>");
     const sidebar = $("<div id='sidebar' class='sidebar'></div>");
     $('.runtime-content').append(topHeader);
-    $('[name="Main Page Area Item12"]').closest('.row').addClass('timelineWrapper');
 
     // let headers = document.querySelector('.top-header');
     // let headerWrapper = document.getElementById('header-Wrapper');
