@@ -1717,7 +1717,8 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 }
 
 .theme-entry.psf [name="Main Page Area Item12"] .grid-body table.grid-content-table>tbody>tr,
-.theme-entry [name="Main Page Area Item12"] table.grid-content-table td {
+.theme-entry [name="Main Page Area Item12"] table.grid-content-table td,
+.theme-entry [name="Main Page Area Item12"] .grid table.grid-content-table td {
     border: 0 !important;
 }
 
