@@ -1462,8 +1462,18 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     top: 5px;
 }
 
-.timeline-wrapper__content__list {
-    white-space: normal!important;
+.timeline-wrapper__content__list,
+.timeline-wrapper__content,
+.timeline-wrapper__content__list__item,
+.theme-entry span.runtime-list-item-wrap,
+.theme-entry h1.runtime-list-item-wrap,
+.theme-entry h2.runtime-list-item-wrap,
+.theme-entry h3.runtime-list-item-wrap,
+.theme-entry h4.runtime-list-item-wrap,
+.theme-entry p.runtime-list-item-wrap,
+.theme-entry label.runtime-list-item-wrap,
+.theme-entry span.LabelWrap {
+    white-space: normal !important;
 }
 
 .timeline-wrapper__content__list__item__date {
