@@ -1655,6 +1655,11 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     height: auto
 } */
 
+.theme-entry .input-control.select-box .input-control-buttons a.picker-resolve,
+[name="Main Page Area Item7"] .input-control.select-box .input-control-buttons a.picker-resolve {
+    display: none;
+}
+
 .theme-entry .grid.with-footer.full .grid-footer {
     position: absolute;
     left: 0;
