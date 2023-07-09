@@ -1528,6 +1528,14 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     font-size: 13px;
 }
 
+.timeline-wrapper__content.firsit-timeline .dates:before {
+    background-color: #0066CC !important;
+}
+
+[name="Main Page Area Item12"] {
+    background: transparent !important;
+}
+
 /* timeline */
 
 .theme-entry span.SourceCode-Forms-Controls-Web-Label {
