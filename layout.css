@@ -1650,10 +1650,10 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 
 /* popup */
 
-.popup-body-content div {
+/* .popup-body-content div {
     overflow: unset !important;
     height: auto
-}
+} */
 
 .theme-entry .grid.with-footer.full .grid-footer {
     position: absolute;
