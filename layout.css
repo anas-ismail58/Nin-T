@@ -1660,6 +1660,18 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     display: none;
 }
 
+
+.row.timelineWrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.row.timelineWrapper .view {
+    width: 100% !important;
+}
+
 .theme-entry .grid.with-footer.full .grid-footer {
     position: absolute;
     left: 0;
@@ -1755,17 +1767,17 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     display: none !important;
 }
 
-.theme-entry.psf [name="Main Page Area Item12"] .grid-body::-webkit-scrollbar {
+.theme-entry.psf [name="Main Page Area Item12"]::-webkit-scrollbar {
     width: 6px;
 }
 
-.theme-entry.psf [name="Main Page Area Item12"] .grid-body::-webkit-scrollbar-track {
+.theme-entry.psf [name="Main Page Area Item12"]::-webkit-scrollbar-track {
     background-color: #F2F4F6;
     width: 6px;
     border-radius: 5px;
 }
 
-.theme-entry.psf [name="Main Page Area Item12"] .grid-body::-webkit-scrollbar-thumb {
+.theme-entry.psf [name="Main Page Area Item12"]::-webkit-scrollbar-thumb {
     background-color: #B7B9C7;
     border: .3px solid transparent;
     border-radius: 9px;
