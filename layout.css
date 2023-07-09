@@ -1732,8 +1732,9 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 /* scroll design */
 
 .theme-entry.psf [name="Main Page Area Item12"] .grid-body {
-    height: 400px;
-    overflow-y: auto;
+    /* height: 400px;
+    overflow-y: auto; */
+    display: none!important;
 }
 
 .theme-entry.psf [name="Main Page Area Item12"] .grid-body::-webkit-scrollbar {
