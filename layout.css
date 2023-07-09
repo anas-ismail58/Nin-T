@@ -1726,6 +1726,35 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     padding: 0;
 }
 
+
+
+
+/* scroll design */
+
+.theme-entry.psf [name="Main Page Area Item12"] .grid-body {
+    height: 400px;
+    overflow-y: auto;
+}
+
+.theme-entry.psf [name="Main Page Area Item12"] .grid-body::-webkit-scrollbar {
+    width: 6px;
+}
+
+.theme-entry.psf [name="Main Page Area Item12"] .grid-body::-webkit-scrollbar-track {
+    background-color: #F2F4F6;
+    width: 6px;
+    border-radius: 5px;
+}
+
+.theme-entry.psf [name="Main Page Area Item12"] .grid-body::-webkit-scrollbar-thumb {
+    background-color: #B7B9C7;
+    border: .3px solid transparent;
+    border-radius: 9px;
+    background-clip: content-box;
+}
+
+/* scroll design */
+
 /*  */
 
 .theme-entry .calendar-outline .timepicker-content .timepicker-ok-button {
