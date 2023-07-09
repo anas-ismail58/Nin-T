@@ -1711,7 +1711,7 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     font-family: 'swcc' !important;
 }
 
-.theme-entry.psf .grid-body [name="Main Page Area Item12"] table.grid-content-table>tbody>tr>td:first-child {
+.theme-entry.psf [name="Main Page Area Item12"] .grid-body table.grid-content-table>tbody>tr>td:first-child {
     padding-left: 1rem;
     padding-right: 1rem;
 }
