@@ -2016,9 +2016,9 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
 [name="Request Details Area Item17"] .toolbar-wrapper div,
 .theme-entry [name="Request Details Area Item17"] .toolbar,
 [name="Request Details Area Item17"] .grid-toolbars,
-[name="Request Details Area Item1"] .toolbar-wrapper div,
-.theme-entry [name="Request Details Area Item1"] .toolbar,
-[name="Request Details Area Item1"] .grid-toolbars,
+[name="My Requests Form Area Item1"] .toolbar-wrapper div,
+.theme-entry [name="My Requests Form Area Item1"] .toolbar,
+[name="My Requests Form Area Item1"] .grid-toolbars,
 [name="Request Details Area Item16"] .toolbar-wrapper div,
 .theme-entry [name="Request Details Area Item16"] .toolbar,
 [name="Request Details Area Item16"] .grid-toolbars {
@@ -2042,14 +2042,14 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
 [name="POC_Request List"] .filterContainer,
 [name="Request Details Area Item17"] .filterContainer,
 [name="Request Details Area Item16"] .filterContainer,
-[name="Request Details Area Item1"] .filterContainer {
+[name="My Requests Form Area Item1"] .filterContainer {
     display: flex;
 }
 
 [name="POC_Request List"] .quickSearch.filter,
 [name="Request Details Area Item17"] .quickSearch.filter,
 [name="Request Details Area Item16"] .quickSearch.filter,
-[name="Request Details Area Item1"] .quickSearch.filter {
+[name="My Requests Form Area Item1"] .quickSearch.filter {
 
     display: flex;
     align-items: center;
@@ -2063,7 +2063,7 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
 [name="POC_Request List"] .filterChosen.filter,
 [name="Request Details Area Item17"] .filterChosen.filter,
 [name="Request Details Area Item16"] .filterChosen.filter,
-[name="Request Details Area Item1"] .filterChosen.filter {
+[name="My Requests Form Area Item1"] .filterChosen.filter {
     width: 30%;
     display: none;
 }
@@ -2077,9 +2077,9 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
 [name="Request Details Area Item16"] .input-control-wrapper,
 [name="Request Details Area Item16"] .input-control-wrapper a,
 [name="Request Details Area Item16"] .input-control-wrapper span,
-[name="Request Details Area Item1"] .input-control-wrapper,
-[name="Request Details Area Item1"] .input-control-wrapper a,
-[name="Request Details Area Item1"] .input-control-wrapper span {
+[name="My Requests Form Area Item1"] .input-control-wrapper,
+[name="My Requests Form Area Item1"] .input-control-wrapper a,
+[name="My Requests Form Area Item1"] .input-control-wrapper span {
     height: 100% !important;
     display: block;
     overflow: unset !important;
@@ -2091,14 +2091,14 @@ a.SFC.SourceCode-Forms-Controls-Web-Button.button.timepicker-cancel-button {
 
 [name="POC_Request List"],
 [name="Request Details Area Item17"],
-[name="Request Details Area Item1"],
+[name="My Requests Form Area Item1"],
 [name="Request Details Area Item16"] {
     background-color: transparent !important;
 }
 
 [name="POC_Request List"] .filterContainer .filterTxt,
 [name="Request Details Area Item17"] .filterContainer .filterTxt,
-[name="Request Details Area Item1"] .filterContainer .filterTxt,
+[name="My Requests Form Area Item1"] .filterContainer .filterTxt,
 [name="Request Details Area Item16"] .filterContainer .filterTxt {
     width: 260px;
 }
