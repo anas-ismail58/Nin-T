@@ -1737,22 +1737,28 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     font-family: 'swcc' !important;
 }
 
-.theme-entry.psf [name="Main Page Area Item12"] .grid-body table.grid-content-table>tbody>tr>td:first-child {
+.theme-entry.psf [name="Main Page Area Item12"] .grid-body table.grid-content-table>tbody>tr>td:first-child,
+.theme-entry.psf [name="Task Form Area Item15"] .grid-body table.grid-content-table>tbody>tr>td:first-child {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-[name="Main Page Area Item12"] {
+[name="Main Page Area Item12"],
+[name="Main Page Area Item15"] {
     background: transparent;
 }
 
 .theme-entry.psf [name="Main Page Area Item12"] .grid-body table.grid-content-table>tbody>tr,
 .theme-entry [name="Main Page Area Item12"] table.grid-content-table td,
-.theme-entry [name="Main Page Area Item12"] .grid table.grid-content-table td {
+.theme-entry [name="Main Page Area Item12"] .grid table.grid-content-table td,
+.theme-entry.psf [name="Main Page Area Item15"] .grid-body table.grid-content-table>tbody>tr,
+.theme-entry [name="Main Page Area Item15"] table.grid-content-table td,
+.theme-entry [name="Main Page Area Item15"] .grid table.grid-content-table td {
     border: 0 !important;
 }
 
-.theme-entry.runtime-form [name="Main Page Area Item12"] span.runtime-list-item-wrap {
+.theme-entry.runtime-form [name="Main Page Area Item12"] span.runtime-list-item-wrap,
+.theme-entry.runtime-form [name="Main Page Area Item15"] span.runtime-list-item-wrap {
     padding: 0;
 }
 
@@ -1761,7 +1767,8 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
 
 /* scroll design */
 
-.theme-entry.psf [name="Main Page Area Item12"] .grid-body {
+.theme-entry.psf [name="Main Page Area Item12"] .grid-body,
+.theme-entry.psf [name="Main Page Area Item15"] .grid-body {
     /* height: 400px;
     overflow-y: auto; */
     display: none !important;
