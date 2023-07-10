@@ -129,6 +129,22 @@ html.rtl-lang {
     align-items: center;
 }
 
+.logoTextEn {
+    line-height: 20px;
+    word-spacing: 0px;
+    font-size: 11px;
+}
+
+.logoTextAr {
+    line-height: 23px;
+    font-size: 15px;
+}
+
+.header-top__logo__text {
+    display: flex;
+    flex-direction: column;
+}
+
 .header-top__user {
     display: flex;
     align-items: center;
