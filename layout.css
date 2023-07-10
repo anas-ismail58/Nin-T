@@ -124,6 +124,11 @@ html.rtl-lang {
     height: 100%;
 }
 
+.header-top__logo__wrapper {
+    display: flex;
+    align-items: center;
+}
+
 .header-top__user {
     display: flex;
     align-items: center;
